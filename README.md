@@ -1,1 +1,1 @@
-# Latvie-u-valodas-m-jaslapa
+# Latviešu-valodas-mājaslapa
