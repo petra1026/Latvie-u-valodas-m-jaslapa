@@ -9,6 +9,21 @@
         background-color: rgb(255, 237, 214);
       }
     </style>
+    <script>
+      function paraditMorfologiju(){
+        document.getElementById("morfologija").classList.remove("d-none")
+        document.getElementById("sakums").classList.add("d-none")
+        document.getElementById("sintakse").classList.add("d-none")
+      }
+      </script>
+
+      <script>
+      function paraditSintaksi(){
+        document.getElementById("sintakse").classList.remove("d-none")
+        document.getElementById("sakums").classList.add("d-none")
+        document.getElementById("morfologija").classList.add("d-none")
+      }
+</script>
     
     </head>
 
@@ -24,7 +39,7 @@
       </div>
       
       <div class="container">
-        <div class="row p-3">
+        <div id="sakums" class="row p-3">
           <div class="col">
               <h2>Kas ir vārdšķiras?</h2>
               <h6>Vārdšķiras, es tās mīlu!</h6>
@@ -33,31 +48,37 @@
             <img src="https://i1.sndcdn.com/artworks-zyYqA8D0BdfuyH28-WeeHrw-t500x500.jpg" class="img" alt="silly cat" style="width: 400px;height: 400px;">
         </div>
        </div>
-      </div>
+
   
 
-       <div class="col">
-         <div class="row">
-          <div class="table, th, td"{
-            border: 1px solid black;
-            border-collapse: collapse;
-          } >
-          </div>
+       <div class="row m-3">
+         <div class="col">
+          <button type= "button" class = "btn  btn-success" onclick="paraditMorfologiju()">Morfoloģija</button>
          </div>
+         <div class="col">
+          <button type= "button" class = "btn  btn-success" onclick="paraditSintaksi()">Sintakse</button>
+         </div>
+         <div class="col">
+          <button type= "button" class = "btn  btn-success" onclick="paraditLeksikologiju()">Leksikoloģija</button>
+         </div>
+
         </div>
 
 
-          <div class="row">
+          <div id="morfologija" class="row d-none">
             <div class="col">
-
+              Morfoloģijas sadaļa
             </div>
-            <div class="col"></div>
-            <div class="col"></div>
+            <div id="sintakse" class="row d-none">
+              <div class="col">
+                Sintakses sadaļa
+              </div>
           </div>
-          <div class="row">
-            <div class="col"></div>
+          <div id="leksikologija" class="row d-none">
+            <div class="col"> 
+              leksikologijas sadaļa
+            </div>
           </div>
-          
         </div>
     </body>
     </html>
