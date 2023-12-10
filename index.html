@@ -11,20 +11,31 @@
     </style>
     <script>
       function paraditMorfologiju(){
-        document.getElementById("morfologija").classList.remove("d-none")
         document.getElementById("sakums").classList.add("d-none")
+        document.getElementById("morfologija").classList.remove("d-none")
         document.getElementById("sintakse").classList.add("d-none")
+        document.getElementById("leksikologija").classList.add("d-none")
       }
       </script>
 
       <script>
       function paraditSintaksi(){
-        document.getElementById("sintakse").classList.remove("d-none")
         document.getElementById("sakums").classList.add("d-none")
         document.getElementById("morfologija").classList.add("d-none")
+        document.getElementById("sintakse").classList.remove("d-none")
+        document.getElementById("leksikologija").classList.add("d-none")
       }
-</script>
-    
+      </script>
+
+      <script>
+      function paraditLeksikologiju(){
+        document.getElementById("sakums").classList.add("d-none")
+        document.getElementById("morfologija").classList.add("d-none")
+        document.getElementById("sintakse").classList.add("d-none")
+        document.getElementById("leksikologija").classList.remove("d-none")
+      }
+      </script>
+
     </head>
 
     <body>
@@ -40,33 +51,32 @@
       
       <div class="container">
         <div id="sakums" class="row p-3">
-          <div class="col">
-              <h2>Kas ir vārdšķiras?</h2>
-              <h6> Vārdšķiras jēdziens tiek izmantots ikvienas valodas gramatiskās sistēmas aprakstā. Taču vārdšķiru klāsts un vārdu piederības iespējas pie vārdšķirām var variēties atkarībā no valodas morfoloģiskā tipa – vai tās ir sintētiskas, analītiskas vai izolējošas valodas.</h6>
-           <p><i>Dalās - morfoloģijā, leskikoloģijā, sintaksē.</i> </p></div>
-          </div>
-          <div class="col">
-            <img src="/Users/lindamargevica/Desktop/Vārdšķiras sastāv no .jpg" class="img" alt="silly cat" style="width: 400px;height: 400px;">
+            <div class="col" style="text-align:start;">
+                <h2 class = "text-center">Kas ir vārdšķiras?</h2>
+                <p style="text-align: start;"> Vārdšķiras jēdziens tiek izmantots ikvienas valodas gramatiskās sistēmas aprakstā. Taču vārdšķiru klāsts un vārdu piederības iespējas pie vārdšķirām var variēties atkarībā no valodas morfoloģiskā tipa – vai tās ir sintētiskas, analītiskas vai izolējošas valodas.</p>
+                <p><i>Dalās - morfoloģijā, leskikoloģijā, sintaksē.</i></p>
+            </div>
+            <div class="col" style="text-align-last: right;">
+                <img src="https://i1.sndcdn.com/artworks-zyYqA8D0BdfuyH28-WeeHrw-t500x500.jpg" class="img" alt="silly cat" style="width: 400px;height: 400px;">
+            </div>
         </div>
-       </div>
+    </div>
 
   
 
-       <div class="row m-3">
+      <div class="row m-5">
          <div class="col">
-          <button type= "button" class = "btn  btn-success btn-lg" onclick="paraditMorfologiju()">Morfoloģija</button>
+          <button type= "button" class = "btn  btn-success btn-lg " onclick="paraditMorfologiju()">Morfoloģija</button>
          </div>
          <div class="col">
-          <button type= "button" class = "btn  btn-success" onclick="paraditSintaksi()">Sintakse</button>
+          <button type= "button" class = "btn  btn-success btn-lg " onclick="paraditSintaksi()">Sintakse</button>
          </div>
          <div class="col">
-          <button type= "button" class = "btn  btn-success" onclick="paraditLeksikologiju()">Leksikoloģija</button>
+          <button type= "button" class = "btn  btn-success btn-lg " onclick="paraditLeksikologiju()">Leksikoloģija</button>
          </div>
+      </div>
 
-        </div>
-
-
-          <div id="morfologija" class="row d-none">
+          <div id="morfologija" class="row d-none m-5">
             <div class="col">
              <h4><b>Morfoloģija</b> ir gramtikas daļa, kas aplūko vārdu formas, to veidošanu, ar vardu formām izteiktās gramatiskās nozīmes un lielākās morfoloģiskās vārdu grupas vārdšķiras.</h4>
                 <p>Latviešu valodā ir sekojošas vārdšķiras - <i>lietvārdi, īpašības vārdi, skaitļa vārdi, vietniekvārdi, darbības vārdi, divdabji, apstākļa vārdi, prievārdi, saikļi, partikulas un izsauksmes vārdi.</i> </p>
@@ -136,15 +146,18 @@
                 <p>Vārdā galotne var arī nebūt, reizēm vārds var beigties ar piedēkli vai sakni.</p>
                 
             </div>
-            <div id="sintakse" class="row d-none">
+            <div id="sintakse">
               <div class="col">
-                Sintakses sadaļa
+                  <h4>Sintakses sadaļa</h4>
               </div>
           </div>
-          <div id="leksikologija" class="row d-none">
-            <div class="col"> 
-              leksikologijas sadaļa
-            </div>
+          
+          <div id="leksikologija">
+              <div class="col"> 
+                  <h4>leksikologijas sadaļa</h4>
+              </div>
+          </div>
+          
           </div>
         </div>
     </body>
