@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
   <html lang="lv">
-    <meta charset="utf-8">
-    <head>
-<title>Palīgs.lv</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <head>
+    <title>Palīgs.lv</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
     <style>
       
       #sakums {
-    padding-left: 70px;
+        padding-left: 70px;
       }
+
       body{
         background-color: rgb(255, 237, 214);
       }
   
-    .table-gap {
-      margin-bottom: 20px; 
-    }
+      .table-gap {
+        margin-bottom: 20px; 
+      }
+
       .center {
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-      width: 60%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
       }
     </style>
 
@@ -54,783 +56,810 @@
       }
       </script>
 
-    </head>
+  </head>
 
-    <body>
-      <div class="text-bg-success p-3">
-        <div class="container">
-          <div class="row p-3">
-            <div class = "col">
-              <h1 class = "text-center">Latviešu valodas palīgs - vārdšķiru špikeris</h1>
-            </div>
+  <body>
+    <div class="text-bg-success p-3">
+      <div class="container">
+        <div class="row p-3">
+          <div class = "col">
+            <h1 class = "text-center">Latviešu valodas palīgs - vārdšķiru špikeris</h1>
           </div>
         </div>
       </div>
+    </div>
       
-      <div class="container">
-        <div id="sakums" class="row p-3">
-            <div class="col" style="text-align:start;">
-                <h2 class = "text-center">Kas ir vārdšķiras?</h2>
-                <p style="text-align: start;"> Vārdšķiras jēdziens tiek izmantots ikvienas valodas gramatiskās sistēmas aprakstā. Taču vārdšķiru klāsts un vārdu piederības iespējas pie vārdšķirām var variēties atkarībā no valodas morfoloģiskā tipa – vai tās ir sintētiskas, analītiskas vai izolējošas valodas.</p>
-                <p><i>Dalās - morfoloģijā, leskikoloģijā, sintaksē.</i></p>
-                <p>Asauces:</p>
-                <a href="url">http://valoda.ailab.lv/latval/vidusskolai/leksikologija/leksikolog/</a>
-                <a href="url">https://www.uzdevumi.lv/p/latviesu-valoda/12-klase/sintakse-6584</a>
-                <a href="url">http://valoda.ailab.lv/latval/vidusskolai/morfol/index.htm</a>
-                <a href="url">https://www.letonika.lv/groups/default.aspx?title=nouns.htm</a>
-            </div>
-            <div class="col" style="text-align-last: right;">
-                <img src="vardskiras.jpeg" class="img-fluid" alt="silly cat" >
-            </div>
-        </div>
-
-
-  
+    <div class="container">
+      <div id="sakums" class="row p-3">
+          <div class="col" style="text-align:start;">
+              <h2 class = "text-center">Kas ir vārdšķiras?</h2>
+              <p style="text-align: start;"> Vārdšķiras jēdziens tiek izmantots ikvienas valodas gramatiskās sistēmas aprakstā. Taču vārdšķiru klāsts un vārdu piederības iespējas pie vārdšķirām var variēties atkarībā no valodas morfoloģiskā tipa – vai tās ir sintētiskas, analītiskas vai izolējošas valodas.</p>
+              <p><i>Dalās - morfoloģijā, leskikoloģijā, sintaksē.</i></p>
+              <p>Asauces:</p>
+              <a href="url">http://valoda.ailab.lv/latval/vidusskolai/leksikologija/leksikolog/</a>
+              <a href="url">https://www.uzdevumi.lv/p/latviesu-valoda/12-klase/sintakse-6584</a>
+              <a href="url">http://valoda.ailab.lv/latval/vidusskolai/morfol/index.htm</a>
+              <a href="url">https://www.letonika.lv/groups/default.aspx?title=nouns.htm</a>
+          </div>
+          <div class="col" style="text-align-last: right;">
+              <img src="vardskiras.jpeg" class="img-fluid" alt="silly cat" >
+          </div>
+      </div>
 
       <div class="row text-center m-5">
-         <div class="col">
+        <div class="col">
           <button type= "button" class = "btn  btn-success btn-lg " onclick="paraditMorfologiju()">Morfoloģija</button>
-         </div>
-         <div class="col">
+        </div>
+        <div class="col">
           <button type= "button" class = "btn  btn-success btn-lg " onclick="paraditSintaksi()">Sintakse</button>
-         </div>
-         <div class="col">
+        </div>
+        <div class="col">
           <button type= "button" class = "btn  btn-success btn-lg " onclick="paraditLeksikologiju()">Leksikoloģija</button>
-         </div>
+        </div>
       </div>
 
       <div id="morfologija" class="row d-none m-5">
-        <div class="col">
-          <div class="row">
+        <div class="row">
+          <div class="col">
             <h4><b>Morfoloģija</b> ir gramtikas daļa, kas aplūko vārdu formas, to veidošanu, ar vardu formām izteiktās gramatiskās nozīmes un lielākās morfoloģiskās vārdu grupas vārdšķiras.</h4>
                 <p>Latviešu valodā ir sekojošas vārdšķiras - <i>lietvārdi, īpašības vārdi, skaitļa vārdi, vietniekvārdi, darbības vārdi, divdabji, apstākļa vārdi, prievārdi, saikļi, partikulas un izsauksmes vārdi.</i> </p>
-          </div><div class="row">
+          </div>
+        </div>
+          <div class="row">
+            <h6><b>Lietvārdi</b> ir patstāvigi lokāmi vārdi ar priekšmetiskuma nozīmi, kas nosauc dzivas būtnes, priekšmetus, parādibas, izjūtas un domas.</h6>
+            <p><i>Latviešu valoda lietvārdiem parasti ir 7 locijumi.</i></p>
+            <p>Nominatīvs (N.) - kas?</p>
+            <p>Ģenitīvs (G.) - kā?</p>
+            <p>Datīvs (D.) - kam?</p>
+            <p>Akuzatīvs (A.) - ko?</p>
+            <p>Instrumentāls (I.) - ar ko?</p>
+            <p>Lokatīvs (L.) - kur?</p>
+            <p>Vokatīvs (V.)</p>
 
-                <h6><b>Lietvārdi</b> ir patstāvigi lokāmi vārdi ar priekšmetiskuma nozīmi, kas nosauc dzivas būtnes, priekšmetus, parādibas, izjūtas un domas.</h6>
-                  <p><i>Latviešu valoda lietvārdiem parasti ir 7 locijumi.</i></p>
-        <p>Nominatīvs (N.) - kas?</p>
-        <p>Ģenitīvs (G.) - kā?</p>
-                <p>Datīvs (D.) - kam?</p>
-                <p>Akuzatīvs (A.) - ko?</p>
-                <p>Instrumentāls (I.) - ar ko?</p>
-                <p>Lokatīvs (L.) - kur?</p>
-                <p>Vokatīvs (V.)</p>
+              <h6><i>Visus lietvārdus iedala :</i></h6>
+              <ul>
+                <li><b>sugas vārdos.</b> Sugas vārdi apzīmē vai nu kādu priekšmetu klasi kopumā, vai arī konkrētu priekšmetu no šīs klases.</li>
+                <p><i>zābaks, milti, ozols, sniegs, klusums, prieks.</i></p>
+                <li><b>īpašvārdos.</b> Īpašvārdi apzīmē kādu atsevišķu priekšmetu, lai atšķirtu to no citiem tās pašas klases priekšmetiem.</li>
+                <p><i>Ilze, Muris, Sigulda, Gauja, Latvija, "Jaunā Avīze".</i></p>
+              </ul> 
+          </div>
 
-
-        
-                <h6><i>Visus lietvārdus iedala :</i></h6>
-               
-
-                <ul>
-  <li><b>sugas vārdos.</b> Sugas vārdi apzīmē vai nu kādu priekšmetu klasi kopumā, vai arī konkrētu priekšmetu no šīs klases.</li>
-                    <p><i>zābaks, milti, ozols, sniegs, klusums, prieks.</i></p>
-  <li><b>īpašvārdos.</b> Īpašvārdi apzīmē kādu atsevišķu priekšmetu, lai atšķirtu to no citiem tās pašas klases priekšmetiem.</li>
-                    <p><i>Ilze, Muris, Sigulda, Gauja, Latvija, "Jaunā Avīze".</i></p>
-                  
-</ul>  
-
-            </div><div class="row">
-
-                <h6><i>Ņemot vērā lietvārdu dzimti un locījumu galotnes, tie tiek iedalīti sešās deklinācijās:</i></h6>
-              </div><div class="row">
-                <div class = "col">
+          <div class="row">
+            <h6><i>Ņemot vērā lietvārdu dzimti un locījumu galotnes, tie tiek iedalīti sešās deklinācijās:</i></h6>
+            </div>
+            <div class="row">
+              <div class = "col">
                 <p><b><i>I deklinācija.</i></b> Pie I deklinācijas pieder vīriešu dzimtes lietvārdi, kam vienskaitļa nominatīvā ir galotne -s vai -š:</p>
                 <p><i>koks, sols, prāts, krēsls, krīts, līdzenums, puisēns, skolnieks;</i></p>
                 <p><i>ceļš, vējš, varš, teļš.</i></p>
-                </div><div class = "col">
-                    <p><b><i>II deklinācija.</i></b> Pie II deklinācijas pieder vīriešu dzimtes lietvārdi, kam vienskaitļa nominatīvā ir galotne -is:</p>
+              </div>
+              <div class = "col">
+                <p><b><i>II deklinācija.</i></b> Pie II deklinācijas pieder vīriešu dzimtes lietvārdi, kam vienskaitļa nominatīvā ir galotne -is:</p>
                 <p><i>skapis, brālis, gulbis, ķirbis, papēdis, gludeklis, alksnis, lasis;</i></p>
                 <p><b>!kā arī izņēmumi:!</b></p>
                 <p><u>mēness, akmens, asmens, rudens, ūdens, zibens, suns, sāls.</u></p>
-              </div><div class = "col">
+              </div>
+              <div class = "col">
                 <p><b><i>III deklinācija.</i></b>Pie III deklinācijas pieder vīriešu dzimtes lietvārdi, kam vienskaitļa nominatīvā ir galotne -us:</p>
                 <p><i>medus, ledus, tirgus, Mikus, lietus, alus.</i></p>
-                </div>
-              </div><div class="row">
-                <div class = "col">
-                  <p><b><i>IV deklinācija.</i></b>Pie IV deklinācijas pieder sieviešu dzimtes lietvārdi, kam vienskaitļa nominatīvā ir galotne -a:</p>
-                <p><i>māja, māsa, diena, lieta, vara, mīlestība;</i></p>
-                 <p><b>!kā arī vīriešu dzimtes un kopdzimtes lietvārdi, kam vienskaitļa nominatīvā ir galotne -a:!</b></p>
-                <p><i>puika, Janka, Kļava, paziņa, auša, pļāpa.</i></p>
-              </div><div class = "col">
-                 <p><b><i>V deklinācija.</i></b>Pie V deklinācijas pieder sieviešu dzimtes lietvārdi, kam vienskaitļa nominatīvā ir galotne -e:</p>
-                <p><i>egle, krūze, sēne, skolniece, klase, pele;</i></p>
-                <p><b>!kā arī vīriešu dzimtes un kopdzimtes lietvārdi, kam vienskaitļa nominatīvā ir galotne -e:!</b></p>
-                <p><i>Roze, Siļķe, bende.</i></p>
-              </div><div class = "col">
-                <p><b><i>VI deklinācija.</i></b>Pie VI deklinācijas pieder sieviešu dzimtes lietvārdi, kam vienskaitļa nominatīvā ir galotne -s:</p>
-                <p><i>pils, kūts, acs, auss, zoss, sirds, nakts, zivs;</i></p>
-                <p><b>!kā arī vīriešu dzimtes lietvārds ļaudis.!</b></p>
-                </div>
+              </div>
               </div>
               <div class="row">
+                <div class = "col">
+                  <p><b><i>IV deklinācija.</i></b>Pie IV deklinācijas pieder sieviešu dzimtes lietvārdi, kam vienskaitļa nominatīvā ir galotne -a:</p>
+                  <p><i>māja, māsa, diena, lieta, vara, mīlestība;</i></p>
+                  <p><b>!kā arī vīriešu dzimtes un kopdzimtes lietvārdi, kam vienskaitļa nominatīvā ir galotne -a:!</b></p>
+                  <p><i>puika, Janka, Kļava, paziņa, auša, pļāpa.</i></p>
+                </div>
+                <div class = "col">
+                  <p><b><i>V deklinācija.</i></b>Pie V deklinācijas pieder sieviešu dzimtes lietvārdi, kam vienskaitļa nominatīvā ir galotne -e:</p>
+                  <p><i>egle, krūze, sēne, skolniece, klase, pele;</i></p>
+                  <p><b>!kā arī vīriešu dzimtes un kopdzimtes lietvārdi, kam vienskaitļa nominatīvā ir galotne -e:!</b></p>
+                  <p><i>Roze, Siļķe, bende.</i></p>
+                </div>
+                <div class = "col">
+                  <p><b><i>VI deklinācija.</i></b>Pie VI deklinācijas pieder sieviešu dzimtes lietvārdi, kam vienskaitļa nominatīvā ir galotne -s:</p>
+                  <p><i>pils, kūts, acs, auss, zoss, sirds, nakts, zivs;</i></p>
+                  <p><b>!kā arī vīriešu dzimtes lietvārds ļaudis.!</b></p>
+                </div>
+              </div>
 
+              <div class="row">
                 <h5><i>Sīkāk apskatot morfoloģiju, var redzēt, ka vārdam ir vairākas svarīgas sastāvdaļas, tostarp<u> sakne, priedēklis, piedēklis un galotne.</u> </i></h5>
-                               <ul>
-  <li><b>Sakne</b> - vārda pamatforma, kura izpaužas vārda leksiskajā nozīmē un ir obligāta vārda sastāvdaļa. </i></p>
-  <li><b>Priedēklis </b>  - atrodas saknes priekšā.</li>
+                  <ul>
+                   <li><b>Sakne</b> - vārda pamatforma, kura izpaužas vārda leksiskajā nozīmē un ir obligāta vārda sastāvdaļa.</li>
+                   <li><b>Priedēklis </b>  - atrodas saknes priekšā.</li>
                    <li><b>Piedēklis </b>  -  starp sakni un galotni, bet <b>galotne</b> atrodas vārda beigās un mainās, veidojot vārda formas.</li>
                   </ul>  
-                                   <h4 class = "text-center"><b>Lietvārda morfoloģiskā analīze</b></h4>
-                                   <p><i>Ilzei – patst., lok.v., lietv., īpašv., siev.dz., viensk., dat., V dekl.</i></p>
-                                   <p><i>Spogulis – patstāvīgs, lokāms vārds, lietvārds, sugas vārds, vīriešu dzimte, vienskaitļa nominatīvs, II dekl.</i></p>
-                                   <p><i>Lietvārds – patstāvīgs, lokāms vārds, lietvārds, sugas vārds / īpašvārds, dzimte, skaitlis, locījums, deklinācija / atgriezenisks.</i></p>
+                <h4 class = "text-center"><b>Lietvārda morfoloģiskā analīze</b></h4>
+                  <p><i>Ilzei – patst., lok.v., lietv., īpašv., siev.dz., viensk., dat., V dekl.</i></p>
+                  <p><i>Spogulis – patstāvīgs, lokāms vārds, lietvārds, sugas vārds, vīriešu dzimte, vienskaitļa nominatīvs, II dekl.</i></p>
+                  <p><i>Lietvārds – patstāvīgs, lokāms vārds, lietvārds, sugas vārds / īpašvārds, dzimte, skaitlis, locījums, deklinācija / atgriezenisks.</i></p>
+              </div>
+                <div class="row">
+                  <h4 class = "text-center"><b>Vārddarināšana</b></h4>
+                  <h6>Morfoloģiski mazāko, nozīmīgāko valodas sistēmas vienību, vārda vai vārdformas daļu sauc par <u>morfēmu.</u> </h6>
+                    <p>Morfēmas pēc nozīmes un vietas vārdā iedala:</p>
+                      <ul>
+                        <li>galvenā jeb pamatmorfēma – sakne,</li>
+                        <li> Īatkarīgās morfēmas – priedēklis, piedēklis, galotne.</li>
+                      </ul> 
+                </div>
+                  <div class="row">
+                    <div class="col">
+                      <p><b>Sakne</b> ir morfēma, kas kopīga veselai radniecīgu vārdu saimei. Šī kopība izpaužas vārda leksiskās nozīmes ziņā.</p>
+                      <p><i>Valde, valdīt, valdīties, savaldīgs, valdība, valdonīgs, pārvaldīt, pārvaldnieks, pārvalde, pārvaldījums, valdniece.</i></p>
+                    </div>
+                    <div class="col">
+                      <p><b>Priedēklis</b> ir morfēma, kas atrodas saknes priekšā.</p>
+                      <p><i>pa-saule, aiz-krāsne, no-gale, pār-lidot, sa-vest, ie-sarkans, ie-pa-tikties.</i></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <p><b>Piedēklis</b> ir morfēma, kas atrodas starp sakni un galotni.</p>
+                      <p><i>Piem., lab-īb-a, lab-um-s, pielab-inā-ties; krās-o-t, krās-o-tāj-s, krās-ain-s.</i></p>
+                    </div>
+                    <div class="col">
+                      <p><b> Galotne</b> ir morfēma, kas atrodas vārda beigās un kas, vārdu lokot, mainās.</p>
+                      <p><i>Piem., kok-s, kok-a, kok-am; las-u, las-i, las-a.</i></p>
+                    </div>
+                    <div class="col">
+                      <p><b>Vārdā galotne var arī nebūt, reizēm vārds var beigties ar piedēkli vai sakni.</b></p>
+                      <p>Piem.<i>, run-ā-j-u, &nbsp;&nbsp; zied-ē-t,</i></p>
+                      <p><i>run-ā (ā - piedēklis),  &nbsp;&nbsp;	zied</i></p>
+                    </div>
+                  </div>
+                <div class="row">
+                  <h6>Morfēmas pēc to funkcijām vārdā iedala formveidotājās un vārddarinātājās morfēmās.<b> Formveidotājas morfēmas </b>veido vārda formu, bet ar<b>vārddarinātājām morfēmām</b>  darina jaunus vārdus.</h6>
+                  <p>Priedēkļus galvenokārt izmanto vārddarināšanā.</p>
+                  <p><i>Piem., zeme – pazeme, raksts – paraksts, nest – aiznest, likt – nolikt.</i></p>
                 </div>
                 <div class="row">
-                    
-                    
-                <h4 class = "text-center"><b>Vārddarināšana</b></h4>
-                <h6>Morfoloģiski mazāko, nozīmīgāko valodas sistēmas vienību, vārda vai vārdformas daļu sauc par <u>morfēmu.</u> </h6>
-                <p>Morfēmas pēc nozīmes un vietas vārdā iedala:</p>
-                               <ul>
-  <li>galvenā jeb pamatmorfēma – sakne,</li>
-  <li> Īatkarīgās morfēmas – priedēklis, piedēklis, galotne.</li>
-</ul> 
+                  <p>Vārda sastāva raksturošanai izmanto arī jēdzienus <i>celms un izskaņa.</i></p>
+                  <div class="col">
+                    <p><b>Celms</b> ir viss vārds bez galotnes.</p>
+                    <p>Piem., saul-e, pasaul-e, strādniek-s, aizzīmogo-t.</p>
+                  </div>
+                  <div class="col">
+                    <p><b>Izskaņa</b> ir vārda daļa, kurā ietilpst vārda pēdējais piedēklis kopā ar galotni.</p>
+                    <p><i>Piem., strād-nieks, aizzīmog-ot, aizzīmogo-tājs.</i></p>
+                  </div>
+                    <p>Galvenokārt pareizrunas un pareizrakstības sakarā lieto terminu <b>fināle.</b>  Ar to apzīmē vārda beigu daļu, kas no kāda viedokļa ir svarīga skaņu sastāva vai rakstījuma ziņā.</p>
+                    <p>Piem., zin-ātne, morfo-loģija, ģeo-grāfija.</p>
+                </div>
+
+                <div class="row">
+                  <h4 class = "text-center"><b>Īpašības vārdi</b></h4>
+                    <p>Īpašības vārdiem ir divējādas galotnes: noteiktā un nenoteiktā galotne. Īpašības vārdu locīšanas likumus nosaka tā dzimte un galotnes tips. Vīriešu dzimtes īpašības vārdus ar nenoteikto galotni loka tāpat kā <b>pirmās deklinācijas</b> lietvārdus. Savukārt sieviešu dzimtes lietvārdus ar nenoteikto galotni loka kā ceturtās deklinācijas lietvārdus. Īpašības vārdus ar noteikto galotni loka īpatnēji. Locījumu galotnes īpašības vārdiem ar nenoteikto galotni norādītas Tabulā 1, bet locījumu galotnes īpašības vārdiem ar noteikto galotni - Tabulā 2. Īpašības vārdus <b>pārākā un vispārākā pakāpē </b>  loka līdzīgi.</p>
+                    <p>Īpašības vārds <b>pārākajā pakāpē</b> norāda, ka īpašība priekšmetam vai parādībai piemīt lielākā vai mazākā mērā nekā kādam citam līdzīgam priekšmetam vai parādībai.</p>
+                    <p><i>Skaistāka puķe, gudrāks bērns, klusāks čuksts.</i></p>
+                    <p>Īpašības vārds <b>vispārākajā pakāpē</b> norāda, ka īpašība kādam priekšmetam vai parādībai piemīt vislielākā pakāpē salīdzinājumā ar citiem līdzīgiem priekšmetiem vai parādībām.</p>
+                    <p><i>Visskaistākā puķe, visgudrākais bērns, visklusākais čuksts.</i></p>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p><b>Tabula 1. Locīšanas paradigma īpašības vārdiem ar nenoteikto galotni</b></p> 
+                      <table style="border-collapse: collapse;">
+                        <tr>
+                          <th style="border: 1px solid black;"><b>Dzimte</b></th>
+                          <th style="border: 1px solid black;"><b>skaitlis</b></th>
+                          <th style="border: 1px solid black;">Nomin.</th>
+                          <th style="border: 1px solid black;">Ģen.</th>
+                          <th style="border: 1px solid black;">Dat.</th>
+                          <th style="border: 1px solid black;">Akuz.</th>
+                          <th style="border: 1px solid black;">Lok.</th>
+                          <th style="border: 1px solid black;">Vok.</th>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid black;"><b>vīriešu</b></td>
+                          <td style="border: 1px solid black;"><b>viensk.</b></td>
+                          <td style="border: 1px solid black;">-s</td>
+                          <td style="border: 1px solid black;">-a</td>
+                          <td style="border: 1px solid black;">-am</td>
+                          <td style="border: 1px solid black;">-u</td>
+                          <td style="border: 1px solid black;">-ā</td>
+                          <td style="border: 1px solid black;">-</td>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid black;"><b>vīriešu</b></td>
+                          <td style="border: 1px solid black;"><b>daudzsk.</b></td>
+                          <td style="border: 1px solid black;">-i</td>
+                          <td style="border: 1px solid black;">-us</td>
+                          <td style="border: 1px solid black;">-iem</td>
+                          <td style="border: 1px solid black;">-us</td>
+                          <td style="border: 1px solid black;">-os</td>
+                          <td style="border: 1px solid black;">-</td>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid black;"><b>sieviešu</b></td>
+                          <td style="border: 1px solid black;"><b>viensk.</b></td>
+                          <td style="border: 1px solid black;">-a</td>
+                          <td style="border: 1px solid black;">-as</td>
+                          <td style="border: 1px solid black;">-ai</td>
+                          <td style="border: 1px solid black;">-u</td>
+                          <td style="border: 1px solid black;">-ā</td>
+                          <td style="border: 1px solid black;">-</td>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid black;"><b>sieviešu</b></td>
+                          <td style="border: 1px solid black;"><b>daudzsk.</b></td>
+                          <td style="border: 1px solid black;">-as</td>
+                          <td style="border: 1px solid black;">-u</td>
+                          <td style="border: 1px solid black;">-ām</td>
+                          <td style="border: 1px solid black;">-as</td>
+                          <td style="border: 1px solid black;">-ās</td>
+                          <td style="border: 1px solid black;">-</td>
+                        </tr>
+                      </table>
+                  </div>
+                      <div class="col">
+                        <p><b>Tabula 2. Locīšanas paradigma īpašības vārdiem ar noteikto galotni</b></p>
+                        <table style="border-collapse: collapse;">
+                          <tr>
+                            <th style="border: 1px solid black;">Dzimte</th>
+                            <th style="border: 1px solid black;">Skaitlis</th>
+                            <th style="border: 1px solid black;">Nomin.</th>
+                            <th style="border: 1px solid black;">Ģen.</th>
+                            <th style="border: 1px solid black;">Dat.</th>
+                            <th style="border: 1px solid black;">Akuz.</th>
+                            <th style="border: 1px solid black;">Lok.</th>
+                            <th style="border: 1px solid black;">Vok.</th>
+                          </tr>
+                          <tr>
+                            <td style="border: 1px solid black;">vīriešu</td>
+                            <td style="border: 1px solid black;">viensk.</td>
+                            <td style="border: 1px solid black;">-ais</td>
+                            <td style="border: 1px solid black;">-ā</td>
+                            <td style="border: 1px solid black;">-ajam</td>
+                            <td style="border: 1px solid black;">-o</td>
+                            <td style="border: 1px solid black;">-ajā</td>
+                            <td style="border: 1px solid black;">-ais</td>
+                          </tr>
+                          <tr>
+                            <td style="border: 1px solid black;">vīriešu</td>
+                            <td style="border: 1px solid black;">daudzsk.</td>
+                            <td style="border: 1px solid black;">-ie</td>
+                            <td style="border: 1px solid black;">-o</td>
+                            <td style="border: 1px solid black;">-ajiem</td>
+                            <td style="border: 1px solid black;">-os</td>
+                            <td style="border: 1px solid black;">-ajos</td>
+                            <td style="border: 1px solid black;">-ie</td>
+                          </tr>
+                          <tr>
+                            <td style="border: 1px solid black;">sieviešu</td>
+                            <td style="border: 1px solid black;">viensk.</td>
+                            <td style="border: 1px solid black;">-ā</td>
+                            <td style="border: 1px solid black;">-ās</td>
+                            <td style="border: 1px solid black;">-ajai</td>
+                            <td style="border: 1px solid black;">-o</td>
+                            <td style="border: 1px solid black;">-ajā</td>
+                            <td style="border: 1px solid black;">-ā</td>
+                          </tr>
+                          <tr>
+                            <td style="border: 1px solid black;">sieviešu</td>
+                            <td style="border: 1px solid black;">daudzsk.</td>
+                            <td style="border: 1px solid black;">-ās</td>
+                            <td style="border: 1px solid black;">-o</td>
+                            <td style="border: 1px solid black;">-ām</td>
+                            <td style="border: 1px solid black;">-ās</td>
+                            <td style="border: 1px solid black;">-ās</td>
+                            <td style="border: 1px solid black;">-ās</td>
+                          </tr>
+                        </table>
+                      </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p><b>Īpašības vārdiem ar izskaņu -ējs, lokot ar noteikto galotni, nav paplašināto galotņu.</b></p>
+                      <table style="border-collapse: collapse;">
+                        <tr>
+                          <th style="border: 1px solid black;">Dzimte</th>
+                          <th style="border: 1px solid black;">Skaitlis</th>
+                          <th style="border: 1px solid black;">Nomin.</th>
+                          <th style="border: 1px solid black;">Ģen.</th>
+                          <th style="border: 1px solid black;">Dat.</th>
+                          <th style="border: 1px solid black;">Akuz.</th>
+                          <th style="border: 1px solid black;">Lok.</th>
+                          <th style="border: 1px solid black;">Vok.</th>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid black;">vīriešu</td>
+                          <td style="border: 1px solid black;">viensk.</td>
+                          <td style="border: 1px solid black;">-ais</td>
+                          <td style="border: 1px solid black;">-ā</td>
+                          <td style="border: 1px solid black;">-am</td>
+                          <td style="border: 1px solid black;">-o</td>
+                          <td style="border: 1px solid black;">-ā</td>
+                          <td style="border: 1px solid black;">-ais</td>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid black;">vīriešu</td>
+                          <td style="border: 1px solid black;">daudzsk.</td>
+                          <td style="border: 1px solid black;">-ie</td>
+                          <td style="border: 1px solid black;">-o</td>
+                          <td style="border: 1px solid black;">-iem</td>
+                          <td style="border: 1px solid black;">-os</td>
+                          <td style="border: 1px solid black;">-os</td>
+                          <td style="border: 1px solid black;">-ie</td>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid black;">sieviešu</td>
+                          <td style="border: 1px solid black;">viensk.</td>
+                          <td style="border: 1px solid black;">-ā</td>
+                          <td style="border: 1px solid black;">-ās</td>
+                          <td style="border: 1px solid black;">-ai</td>
+                          <td style="border: 1px solid black;">-o</td>
+                          <td style="border: 1px solid black;">-ā</td>
+                          <td style="border: 1px solid black;">-ā</td>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid black;">sieviešu</td>
+                          <td style="border: 1px solid black;">daudzsk.</td>
+                          <td style="border: 1px solid black;">-ās</td>
+                          <td style="border: 1px solid black;">-o</td>
+                          <td style="border: 1px solid black;">-ām</td>
+                          <td style="border: 1px solid black;">-ās</td>
+                          <td style="border: 1px solid black;">-ās</td>
+                          <td style="border: 1px solid black;">-ās</td>
+                        </tr>
+                      </table>
+                  </div>
+                    <div class="col">
+                      <h5><i>Piemērs</i></h5>
+                      <p><b>Īpašības vārdu ar nenoteikto galotni locīšana</b></p>
+                      <table style="border-collapse: collapse;">
+                        <tr>
+                          <th style="border: 1px solid black;">Dzimte</th>
+                          <th style="border: 1px solid black;">Vīr., viensk.</th>
+                          <th style="border: 1px solid black;">Siev., viensk.</th>
+                          <th style="border: 1px solid black;">Vīr., daudzsk.</th>
+                          <th style="border: 1px solid black;">Siev., daudzsk.</th>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid black;">Nominatīvs</td>
+                          <td style="border: 1px solid black;">zil-s</td>
+                          <td style="border: 1px solid black;">zil-a</td>
+                          <td style="border: 1px solid black;">zil-i</td>
+                          <td style="border: 1px solid black;">zil-as</td>
+                          </tr>
+
+                        <tr>
+                          <td style="border: 1px solid black;">Ģenitīvs</td>
+                          <td style="border: 1px solid black;">zil-a</td>
+                          <td style="border: 1px solid black;">zil-as</td>
+                          <td style="border: 1px solid black;">zil-u</td>
+                          <td style="border: 1px solid black;">zil-u</td>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid black;">Datīvs</td>
+                          <td style="border: 1px solid black;">zil-am</td>
+                          <td style="border: 1px solid black;">zil-ai</td>
+                          <td style="border: 1px solid black;">zil-iem</td>
+                          <td style="border: 1px solid black;">zil-ām</td>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid black;">Akuzatīvs</td>
+                          <td style="border: 1px solid black;">zil-u</td>
+                          <td style="border: 1px solid black;">zil-u</td>
+                          <td style="border: 1px solid black;">zil-us</td>
+                          <td style="border: 1px solid black;">zil-as</td>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid black;">Lokatīvs</td>
+                          <td style="border: 1px solid black;">zil-ā</td>
+                          <td style="border: 1px solid black;">zil-ā</td>
+                          <td style="border: 1px solid black;">zil-os</td>
+                          <td style="border: 1px solid black;">zil-ās</td>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid black;">Vokatīvs</td>
+                          <td style="border: 1px solid black;">-</td>
+                          <td style="border: 1px solid black;">-</td>
+                          <td style="border: 1px solid black;">-</td>
+                          <td style="border: 1px solid black;">-</td>
+                        </tr>
+                      </table>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p><b>Īpašības vārdu ar noteikto galotni locīšana</b></p>
+                    <table style="border-collapse: collapse;">
+                      <tr>
+                        <th style="border: 1px solid black;">Dzimte</th>
+                        <th style="border: 1px solid black;">Vīr., viensk.</th>
+                        <th style="border: 1px solid black;">Siev., viensk.</th>
+                        <th style="border: 1px solid black;">Vīr., daudzsk.</th>
+                        <th style="border: 1px solid black;">Siev., daudzsk.</th>
+                      </tr>
+                      <tr>
+                        <td style="border: 1px solid black;">Nominatīvs</td>
+                        <td style="border: 1px solid black;">zil-ais</td>
+                        <td style="border: 1px solid black;">zil-ā</td>
+                        <td style="border: 1px solid black;">zil-ie</td>
+                        <td style="border: 1px solid black;">zil-ās</td>
+                        </tr>
+                      <tr>
+                        <td style="border: 1px solid black;">Ģenitīvs</td>
+                        <td style="border: 1px solid black;">zil-ā</td>
+                        <td style="border: 1px solid black;">zil-ās</td>
+                        <td style="border: 1px solid black;">zil-o</td>
+                        <td style="border: 1px solid black;">zil-o</td>
+                      </tr>
+                      <tr>
+                        <td style="border: 1px solid black;">Datīvs</td>
+                        <td style="border: 1px solid black;">zil-ajam</td>
+                        <td style="border: 1px solid black;">zil-ajai</td>
+                        <td style="border: 1px solid black;">zil-ajiem</td>
+                        <td style="border: 1px solid black;">zil-ajām</td>
+                      </tr>
+                      <tr>
+                        <td style="border: 1px solid black;">Akuzatīvs</td>
+                        <td style="border: 1px solid black;">zil-o</td>
+                        <td style="border: 1px solid black;">zil-o</td>
+                        <td style="border: 1px solid black;">zil-os</td>
+                        <td style="border: 1px solid black;">zil-ās</td>
+                      </tr>
+                      <tr>
+                        <td style="border: 1px solid black;">Lokatīvs</td>
+                        <td style="border: 1px solid black;">zil-ajā</td>
+                        <td style="border: 1px solid black;">zil-ajā</td>
+                        <td style="border: 1px solid black;">zil-ajos</td>
+                        <td style="border: 1px solid black;">zil-ajās</td>
+                      </tr>
+                      <tr>
+                        <td style="border: 1px solid black;">Vokatīvs</td>
+                        <td style="border: 1px solid black;">zil-ais</td>
+                        <td style="border: 1px solid black;">zil-ā </td>
+                        <td style="border: 1px solid black;">zil-ie</td>
+                        <td style="border: 1px solid black;">zil-ās</td>
+                      </tr>
+                    </table>
+                  </div>
+                      <div class="col">
+                        <p><b>Īpašības vārdu ar izskaņu -ējs locīšana ar noteikto galotni</b></p>
+                        <table style="border-collapse: collapse;">
+                          <tr>
+                            <th style="border: 1px solid black;">Dzimte</th>
+                            <th style="border: 1px solid black;">Vīr., viensk.</th>
+                            <th style="border: 1px solid black;">Siev., viensk.</th>
+                            <th style="border: 1px solid black;">Vīr., daudzsk.</th>
+                            <th style="border: 1px solid black;">Siev., daudzsk.</th>
+                          </tr>
+                          <tr>
+                            <td style="border: 1px solid black;">Nominatīvs</td>
+                            <td style="border: 1px solid black;">vidēj-ais</td>
+                            <td style="border: 1px solid black;">vidēj-ā</td>
+                            <td style="border: 1px solid black;">vidēj-ie</td>
+                            <td style="border: 1px solid black;">vidēj-ās</td>
+                          </tr>
+
+                          <tr>
+                            <td style="border: 1px solid black;">Ģenitīvs</td>
+                            <td style="border: 1px solid black;">vidēj-ā</td>
+                            <td style="border: 1px solid black;">vidēj-ās</td>
+                            <td style="border: 1px solid black;">vidēj-o</td>
+                            <td style="border: 1px solid black;">vidēj-o</td>
+                          </tr>
+                          <tr>
+                            <td style="border: 1px solid black;">Datīvs</td>
+                            <td style="border: 1px solid black;">vidēj-am</td>
+                            <td style="border: 1px solid black;">vidēj-ai</td>
+                            <td style="border: 1px solid black;">vidēj-iem</td>
+                            <td style="border: 1px solid black;">vidēj-ām</td>
+                          </tr>
+                          <tr>
+                            <td style="border: 1px solid black;">Akuzatīvs</td>
+                            <td style="border: 1px solid black;">vidēj-o</td>
+                            <td style="border: 1px solid black;">vidēj-o</td>
+                            <td style="border: 1px solid black;">vidēj-os</td>
+                            <td style="border: 1px solid black;">vidēj-ās</td>
+                          </tr>
+                          <tr>
+                            <td style="border: 1px solid black;">Lokatīvs</td>
+                            <td style="border: 1px solid black;">vidēj-ā</td>
+                            <td style="border: 1px solid black;">vidēj-ā</td>
+                            <td style="border: 1px solid black;">vidēj-os</td>
+                            <td style="border: 1px solid black;">vidēj-ās</td>
+                          </tr>
+                          <tr>
+                            <td style="border: 1px solid black;">Vokatīvs</td>
+                            <td style="border: 1px solid black;">vidēj-ais</td>
+                            <td style="border: 1px solid black;">vidēj-ā</td>
+                            <td style="border: 1px solid black;">vidēj-ie</td>
+                            <td style="border: 1px solid black;">vidēj-ās</td>
+                          </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <p></p>
+                <h4 class = "text-center"><b>Skaitļa vārdi</b></h4>
+                  <p>Skaitļa vārdus pēc nozīmes iedala pamata un kārtas skaitļa vārdos. Pamata skaitļa vārdi var būt lokāmi vai nelokāmi. Lokāmos pamata skaitļa vārdus loka kā <b>īpašības vārdus</b> ar nenoteikto galotni, bet kārtas skaitļa vārdus loka kā <b>īpašības vārdus</b> ar noteikto galotni. Īpatnēji loka skaitļa vārdus <i><u>trīs, pusotra, pustreša, pusceturta.</u></i> Skaitļa vārdu savienojumos katru tā sastāvdaļu loka atsevišķi.</p>
+                  <p>Nelokāmi ir visi skaitļa vārdi, kuriem nav galotnes:</p>
+                <ul>
+                  <p><i>11-19: vienpadsmit, divpadsmit, trīspadsmit, četrpadsmit, piecpadsmit, sešpadsmit, septiņpadsmit, astoņpadsmit, deviņpadsmit;</i></p>
+                   <li><b>saliktie skaitļa vārdi ar</b> desmit: divdesmit, trīsdesmit, četrdesmit, piecdesmit, sešdesmit, septiņdesmit, astoņdesmit, deviņdesmit;</li>
+                   <li><b>saliktie skaitļa vārdi ar</b> simt: simt, divsimt, trīssimt, četrsimt, piecsimt, sešsimt, septiņsimt, astoņsimt, deviņsimt;</li>
+                   <li><b>saliktie skaitļa vārdi ar</b> tūkstoš: tūkstoš, divtūkstoš, trīstūkstoš, četrtūkstoš, piectūkstoš, seštūkstoš, septiņtūkstoš, astoņtūkstoš, deviņtūkstoš.</li>
+                </ul>
+
+                    <div class="row">
+                      <h4 class = "text-center"><b>Vietniekvārdi</b></h4>
+                       <p>Vietniekvārdu lielāko daļu loka kā pirmās (vīriešu dzimtes) vai ceturtās deklinācijas lietvārdus (sieviešu dzimtē). Īpatnēji loka es, tu, mēs, jūs, sevis, kas, tas, tā, šis, šī, pats, pati.</p>
+                      <h8><i>Piemēri:</i></h8>
                     </div>
                     <div class="row">
-                    <div class="col">
-                <p><b>Sakne</b> ir morfēma, kas kopīga veselai radniecīgu vārdu saimei. Šī kopība izpaužas vārda leksiskās nozīmes ziņā.</p>
-                <p><i>Valde, valdīt, valdīties, savaldīgs, valdība, valdonīgs, pārvaldīt, pārvaldnieks, pārvalde, pārvaldījums, valdniece.</i></p>
-              </div><div class="col">
-                <p><b>Priedēklis</b> ir morfēma, kas atrodas saknes priekšā.</p>
-                <p><i>pa-saule, aiz-krāsne, no-gale, pār-lidot, sa-vest, ie-sarkans, ie-pa-tikties.</i></p>
-                </div><div class="row">
-                  <div class="col">
-                <p><b>Piedēklis</b> ir morfēma, kas atrodas starp sakni un galotni.</p>
-                <p><i>Piem., lab-īb-a, lab-um-s, pielab-inā-ties; krās-o-t, krās-o-tāj-s, krās-ain-s.</i></p>
-                </div><div class="col">
-                <p><b> Galotne</b> ir morfēma, kas atrodas vārda beigās un kas, vārdu lokot, mainās.</p>
-                <p><i>Piem., kok-s, kok-a, kok-am; las-u, las-i, las-a.</i></p>
-                </div><div class="col">
-                <p><b>Vārdā galotne var arī nebūt, reizēm vārds var beigties ar piedēkli vai sakni.</b></p>
-                <p>Piem.<i>, run-ā-j-u, &nbsp;&nbsp; zied-ē-t,</i></p>
-                <p><i>run-ā (ā - piedēklis),  &nbsp;&nbsp;	zied</i></p>
-                </div>
-                <div class="row">
-                <h6>Morfēmas pēc to funkcijām vārdā iedala formveidotājās un vārddarinātājās morfēmās.<b> Formveidotājas morfēmas </b>veido vārda formu, bet ar<b>vārddarinātājām morfēmām</b>  darina jaunus vārdus.</h6>
-                <p>Priedēkļus galvenokārt izmanto vārddarināšanā.</p>
-                <p><i>Piem., zeme – pazeme, raksts – paraksts, nest – aiznest, likt – nolikt.</i></p>
-                <p>Vārda sastāva raksturošanai izmanto arī jēdzienus <i>celms un izskaņa.</i></p>
-                </div><div class="col">
-                <p><b>Celms</b> ir viss vārds bez galotnes.</p>
-                <p>Piem., saul-e, pasaul-e, strādniek-s, aizzīmogo-t.</p>
-                </div><div class="col">
-                <p><b>Izskaņa</b> ir vārda daļa, kurā ietilpst vārda pēdējais piedēklis kopā ar galotni.</p>
-<p><i>Piem., strād-nieks, aizzīmog-ot, aizzīmogo-tājs.</i></p>
-</div>
-<p>Galvenokārt pareizrunas un pareizrakstības sakarā lieto terminu <b>fināle.</b>  Ar to apzīmē vārda beigu daļu, kas no kāda viedokļa ir svarīga skaņu sastāva vai rakstījuma ziņā.</p>
-<p>Piem., zin-ātne, morfo-loģija, ģeo-grāfija.</p>
+                      <div class="col">
+                        <h6>Sieviešu dzimtē:</h6>
+                        <table style="border-collapse: collapse;">
+                          <tr>
+                            <th style="border: 1px solid black;">Nominatīvs</th>
+                            <td style="border: 1px solid black;">viņ-a</td>
+                            <td style="border: 1px solid black;">viņ-as</td>
+                        
+                          </tr>
+                          <tr>
+                            <th style="border: 1px solid black;">Ģenitīvs</th>
+                            <td style="border: 1px solid black;">viņ-as</td>
+                            <td style="border: 1px solid black;">viņ-u</td>
+                        
+                          </tr>
+                          <tr>
+                            <th style="border: 1px solid black;">Datīvs</th>
+                            <td style="border: 1px solid black;">viņ-ai</td>
+                            <td style="border: 1px solid black;">viņ-ām</td>
+                          </tr>
+                          <tr>
+                            <th style="border: 1px solid black;">Akuzatīvs</th>
+                            <td style="border: 1px solid black;">viņ-u</td>
+                            <td style="border: 1px solid black;">viņ-as</td>
+                        
+                          </tr>
+                          <tr>
+                            <th style="border: 1px solid black;">Lokatīvs</th>
+                            <td style="border: 1px solid black;">viņ-ā</td>
+                            <td style="border: 1px solid black;">viņ-ās</td>
+                        
+                          </tr>
+                        </table>
+                      </div>
+                      <div class="col">
+                        <h6>Vīriešu dzimtē:</h6>
+                        <table style="border-collapse: collapse;">
+                          <tr>
+                            <th style="border: 1px solid black;">Nominatīvs</th>
+                            <td style="border: 1px solid black;">viņ-š</td>
+                            <td style="border: 1px solid black;">viņ-i</td>
+                        
+                          </tr>
+                          <tr>
+                            <th style="border: 1px solid black;">Ģenitīvs</th>
+                            <td style="border: 1px solid black;">viņ-a</td>
+                            <td style="border: 1px solid black;">viņ-u</td>
+                        
+                          </tr>
+                          <tr>
+                            <th style="border: 1px solid black;">Datīvs</th>
+                            <td style="border: 1px solid black;">viņ-am</td>
+                            <td style="border: 1px solid black;">viņ-iem</td>
+                          </tr>
+                          <tr>
+                            <th style="border: 1px solid black;">Akuzatīvs</th>
+                            <td style="border: 1px solid black;">viņ-u</td>
+                            <td style="border: 1px solid black;">viņ-us</td>
+                        
+                          </tr>
+                          <tr>
+                            <th style="border: 1px solid black;">Lokatīvs</th>
+                            <td style="border: 1px solid black;">viņ-ā</td>
+                            <td style="border: 1px solid black;">viņ-os</td>
+                        
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
 
-</div>
-<div class="row">
+                  <p></p>
+                  <h4 class = "text-center"><b>Darbības vārdi</b></h4>
+                    <p><i>Darbības vārdi ir patstāvīgi, lokāmi vārdi, kas nosauc darbību vai stāvokli.</i></p>
+                  <ul>
+                    <li>Darbības vārdus latviešu valodā iedala trijās konjugācijās. Pie <b>pirmās konjugācijas</b> pieder vienzilbes darbības vārdi un to atvasinājumi ar priedēkļiem. Pie <b>otrās konjugācijas</b> pieder ar piedēkļiem <i>-ā, -ē, -o, -ī, -alē, -aļā, -elē, -uļo</i> atvasinātie darbības vārdi, kam tagadnes un pagātnes celmā ir vienāds zilbju skaits. Pie <b>trešās konjugācijas</b> pieder ar piedēkļiem <i>-ā, -ē, -ī, -inā</i> atvasinātie darbības vārdi, kuriem pagātnes celmā ir par vienu zilbi vairāk nekā tagadnes celmā. Nevienā no konjugācijām neiederas <b>nekārtnie darbības vārdi</b> : <i>būt, iet, dot.</i></li>
+                    <li>Darbības vārdiem ir trīs vienkāršie laiki: <i>vienkāršā tagadne , vienkāršā pagātne un vienkāršā nākotne</i> , un trīs saliktie laiki : saliktā tagadne, saliktā pagātne, saliktā nākotne. Darbības vārdam ir piecas izteiksmes: īstenības izteiksme, pavēles izteiksme , vēlējuma izteiksme , atstāstījuma izteiksme un vajadzības izteiksme .</li>
+                  </ul>
 
+                  <h4 class = "text-center"><b>Apstākļa vārdi</b></h4>
+                    <p>Apstākļa vārdi ir patstāvīgi, nelokāmi vārdi, kas nosauc darbības, īpašības vai apstākļa pazīmes.</p>
+                    <ol>
+                      <li> darbības pazīmes, piemēram, <b>veikli</b> runāja, <b>reiz</b> dzīvoja, <b>te</b> apstājās;</li>
+                      <li> īpašības pazīmes, piemēram, <b>koši</b> balts, <b>ļoti</b> smaržīgs, <b>tumši</b> sarkans;</li>
+                      <li>apstākļu pazīmes, piemēram, <b>ļotiveikli</b> kustēties, <b>pavisam</b> viegli dejot.</li>
+                    </ol> 
+                    <p>Apstākļa vārdi ir radušies arī no īpašības vārdiem, jo gandrīz no katra īpašības vārda darina apstākļa vārdu, īpašības vārda celmam pievienojot <i>-i, -u vai -ām</i>, piemēram:</p>
+                    <p><i>Kluss-   klus-i, klus-u, klus-ām.</i></p>
 
-<h4 class = "text-center"><b>Īpašības vārdi</b></h4>
-<p>Īpašības vārdiem ir divējādas galotnes: noteiktā un nenoteiktā galotne. Īpašības vārdu locīšanas likumus nosaka tā dzimte un galotnes tips. Vīriešu dzimtes īpašības vārdus ar nenoteikto galotni loka tāpat kā <b>pirmās deklinācijas</b> lietvārdus. Savukārt sieviešu dzimtes lietvārdus ar nenoteikto galotni loka kā ceturtās deklinācijas lietvārdus. Īpašības vārdus ar noteikto galotni loka īpatnēji. Locījumu galotnes īpašības vārdiem ar nenoteikto galotni norādītas Tabulā 1, bet locījumu galotnes īpašības vārdiem ar noteikto galotni - Tabulā 2. Īpašības vārdus <b>pārākā un vispārākā pakāpē </b>  loka līdzīgi.</p>
-<p>Īpašības vārds <b>pārākajā pakāpē</b> norāda, ka īpašība priekšmetam vai parādībai piemīt lielākā vai mazākā mērā nekā kādam citam līdzīgam priekšmetam vai parādībai.</p>
-<p><i>Skaistāka puķe, gudrāks bērns, klusāks čuksts.</i></p>
-<p>Īpašības vārds <b>vispārākajā pakāpē</b> norāda, ka īpašība kādam priekšmetam vai parādībai piemīt vislielākā pakāpē salīdzinājumā ar citiem līdzīgiem priekšmetiem vai parādībām.</p>
-<p><i>Visskaistākā puķe, visgudrākais bērns, visklusākais čuksts.</i></p>
-</div>
-<div class="row">
-<div class="col">
-<p><b>Tabula 1. Locīšanas paradigma īpašības vārdiem ar nenoteikto galotni</b></p> 
+                    <div class="row">
+                      <h4 class = "text-center"><b>Prievārdi</b></h4>
+                        <p>Palīgvārds, kas norāda attieksmes starp patstāvīgiem vārdiem un ko lieto kopā ar deklinējama vārda locījuma formu.</p>
+                        <p><i>Viņi gāja <b>gar</b> jūru.</i></p>
+                        <p><i>Mēs <b>ar</b> viņiem satiksimies Rīgā.</i></p>
+                        <p>Latviešu valodā ir šādi prievārdi:</p>
+                        <ul>
+                          <li><i>ar ģenitīvu</i></li>
+                          <p><i>aiz, apakš, bez, dēļ, iekš, iz, kopš, labad, no, pēc, pie, pirms, priekš, virs, zem un visi saliktie prievārdi ar –pus otrajā daļā: apakšpus, augšpus, ārpus, iekšpus, lejpus, otrpus, šaipus, viņpus, virspus;</i></p>
+                        </ul>
+                    </div>
+                    <div class="row">
+                      <ul>
+                      <div class="col">
+                        <li><i>ar datīvu</i></li>
+                        <p><i>līdz;</i></p>
+                      </div>
+                      <div class="col">
+                        <li><i>ar akuzatīvu</i></li>
+                        <p><i>ap, caur, gar, par,pār, pret, starp;</i></p>
+                      </div>
+                      <div class="col">
+                        <li><i>ar datīvu vai akuzatīvu</i></li>
+                        <p><i>pa;</i></p>
+                      </div>
+                      <div class="col">
+                        <li><i>ar instrumentāli</i></li>
+                        <p><i>ar;</i></p>
+                      </div>
+                      <div class="col">
+                        <li><i>ar ģenitīvu vai akuzatīvu</i></li>
+                        <p><i>uz.</i></p>
+                      </div>
+                      </ul>
+                    </div>
+  
+                    <h4 class = "text-center"><b>Saikļi (konjugācijas)</b></h4>
+                      <p>Saikļi ir viena no gramatikas sastāvdaļām, kas tiek izmantoti, lai savienotu vārdus, frāzes vai dažādas teikuma daļas. Tie palīdz veidot loģiskas saites starp vārdiem un teikuma daļām, norādot attiecības starp tām. Saikļi var izpaust laiku, vietu, iemeslu, secību, salīdzinājumu, pievienot informāciju vai norādīt uz papildu detaļām.</p>
+                      <p></p>
+                      <p>Latviešu valodā ir dažādi veidi un veidi, kā saikļi:</p>
+                      <p><i>un, bet, vai, tāpēc ka, jo, lai, ja, kaut, kamēr un citi.</i></p>
+                    <h8>Teikumā piemēri:</h8>
+                      <p><i>Ieva <b>un</b> Ilze raksta.</i></p>
+                      <p><i>Ieva raksta, <b>bet</b> Ilze lasa.</i></p>
+                      <p><i>Ieva redz, <b>ka</b> Ilze raksta.</i></p>
+                      <p><i>Ieva raksta. <b>Un</b> Ilze lasa.</i></p>
+                      <p></p>
+                      <p>Pēc funkcijas teikumā saikļi iedalās sakārtojuma un pakārtojuma saikļos.</p>
+                    <ul>
+                      <li><b>Sakārtojuma saikļi</b> ir tie, kas saista vienlīdzīgus teikuma locekļus, vienlīdzīgas teikuma daļas, pašus teikumus, piemēram:</li>
+                      <p><i>Manam sunim garšo gan kauli, gan speciālā barība.</i></p>
+                      <li><b>Pakārtojuma saikļi</b> piesaista pakārtojumā palīgteikumu virsteikumam vai palīgteikumu palīgteikumam, piemēram:</li>
+                      <p><i>Reiz, rakstot par Kārli Mīlenbahu, skaidri zinādams, ka viņa "Latviešu valodas vārdnīcai" kopā ar papildinājumiem ir pavisam seši sējumi, tomēr minēju septiņus. Šī aplamība tika arī nodrukāta, jo redaktori droši vien paļāvās uz to, ka Ancītis jau nemelos.
+                        (V. Ancītis.)</i></p>
+                    </ul>
 
-<table style="border-collapse: collapse;">
-  <tr>
-    <th style="border: 1px solid black;"><b>Dzimte</b></th>
-    <th style="border: 1px solid black;"><b>skaitlis</b></th>
-    <th style="border: 1px solid black;">Nomin.</th>
-    <th style="border: 1px solid black;">Ģen.</th>
-    <th style="border: 1px solid black;">Dat.</th>
-    <th style="border: 1px solid black;">Akuz.</th>
-    <th style="border: 1px solid black;">Lok.</th>
-    <th style="border: 1px solid black;">Vok.</th>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;"><b>vīriešu</b></td>
-    <td style="border: 1px solid black;"><b>viensk.</b></td>
-    <td style="border: 1px solid black;">-s</td>
-    <td style="border: 1px solid black;">-a</td>
-    <td style="border: 1px solid black;">-am</td>
-    <td style="border: 1px solid black;">-u</td>
-    <td style="border: 1px solid black;">-ā</td>
-    <td style="border: 1px solid black;">-</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;"><b>vīriešu</b></td>
-    <td style="border: 1px solid black;"><b>daudzsk.</b></td>
-    <td style="border: 1px solid black;">-i</td>
-    <td style="border: 1px solid black;">-us</td>
-    <td style="border: 1px solid black;">-iem</td>
-    <td style="border: 1px solid black;">-us</td>
-    <td style="border: 1px solid black;">-os</td>
-    <td style="border: 1px solid black;">-</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;"><b>sieviešu</b></td>
-    <td style="border: 1px solid black;"><b>viensk.</b></td>
-    <td style="border: 1px solid black;">-a</td>
-    <td style="border: 1px solid black;">-as</td>
-    <td style="border: 1px solid black;">-ai</td>
-    <td style="border: 1px solid black;">-u</td>
-    <td style="border: 1px solid black;">-ā</td>
-    <td style="border: 1px solid black;">-</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;"><b>sieviešu</b></td>
-    <td style="border: 1px solid black;"><b>daudzsk.</b></td>
-    <td style="border: 1px solid black;">-as</td>
-    <td style="border: 1px solid black;">-u</td>
-    <td style="border: 1px solid black;">-ām</td>
-    <td style="border: 1px solid black;">-as</td>
-    <td style="border: 1px solid black;">-ās</td>
-    <td style="border: 1px solid black;">-</td>
-  </tr>
-</table>
-</div><div class="col">
-<p><b>Tabula 2. Locīšanas paradigma īpašības vārdiem ar noteikto galotni</b></p>
-<table style="border-collapse: collapse;">
-  <tr>
-    <th style="border: 1px solid black;">Dzimte</th>
-    <th style="border: 1px solid black;">Skaitlis</th>
-    <th style="border: 1px solid black;">Nomin.</th>
-    <th style="border: 1px solid black;">Ģen.</th>
-    <th style="border: 1px solid black;">Dat.</th>
-    <th style="border: 1px solid black;">Akuz.</th>
-    <th style="border: 1px solid black;">Lok.</th>
-    <th style="border: 1px solid black;">Vok.</th>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">vīriešu</td>
-    <td style="border: 1px solid black;">viensk.</td>
-    <td style="border: 1px solid black;">-ais</td>
-    <td style="border: 1px solid black;">-ā</td>
-    <td style="border: 1px solid black;">-ajam</td>
-    <td style="border: 1px solid black;">-o</td>
-    <td style="border: 1px solid black;">-ajā</td>
-    <td style="border: 1px solid black;">-ais</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">vīriešu</td>
-    <td style="border: 1px solid black;">daudzsk.</td>
-    <td style="border: 1px solid black;">-ie</td>
-    <td style="border: 1px solid black;">-o</td>
-    <td style="border: 1px solid black;">-ajiem</td>
-    <td style="border: 1px solid black;">-os</td>
-    <td style="border: 1px solid black;">-ajos</td>
-    <td style="border: 1px solid black;">-ie</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">sieviešu</td>
-    <td style="border: 1px solid black;">viensk.</td>
-    <td style="border: 1px solid black;">-ā</td>
-    <td style="border: 1px solid black;">-ās</td>
-    <td style="border: 1px solid black;">-ajai</td>
-    <td style="border: 1px solid black;">-o</td>
-    <td style="border: 1px solid black;">-ajā</td>
-    <td style="border: 1px solid black;">-ā</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">sieviešu</td>
-    <td style="border: 1px solid black;">daudzsk.</td>
-    <td style="border: 1px solid black;">-ās</td>
-    <td style="border: 1px solid black;">-o</td>
-    <td style="border: 1px solid black;">-ām</td>
-    <td style="border: 1px solid black;">-ās</td>
-    <td style="border: 1px solid black;">-ās</td>
-    <td style="border: 1px solid black;">-ās</td>
-  </tr>
-</table>
-</div><div class="row">
-  <div class="col">
-<p><b>Īpašības vārdiem ar izskaņu -ējs, lokot ar noteikto galotni, nav paplašināto galotņu.</b></p>
-<table style="border-collapse: collapse;">
-  <tr>
-    <th style="border: 1px solid black;">Dzimte</th>
-    <th style="border: 1px solid black;">Skaitlis</th>
-    <th style="border: 1px solid black;">Nomin.</th>
-    <th style="border: 1px solid black;">Ģen.</th>
-    <th style="border: 1px solid black;">Dat.</th>
-    <th style="border: 1px solid black;">Akuz.</th>
-    <th style="border: 1px solid black;">Lok.</th>
-    <th style="border: 1px solid black;">Vok.</th>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">vīriešu</td>
-    <td style="border: 1px solid black;">viensk.</td>
-    <td style="border: 1px solid black;">-ais</td>
-    <td style="border: 1px solid black;">-ā</td>
-    <td style="border: 1px solid black;">-am</td>
-    <td style="border: 1px solid black;">-o</td>
-    <td style="border: 1px solid black;">-ā</td>
-    <td style="border: 1px solid black;">-ais</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">vīriešu</td>
-    <td style="border: 1px solid black;">daudzsk.</td>
-    <td style="border: 1px solid black;">-ie</td>
-    <td style="border: 1px solid black;">-o</td>
-    <td style="border: 1px solid black;">-iem</td>
-    <td style="border: 1px solid black;">-os</td>
-    <td style="border: 1px solid black;">-os</td>
-    <td style="border: 1px solid black;">-ie</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">sieviešu</td>
-    <td style="border: 1px solid black;">viensk.</td>
-    <td style="border: 1px solid black;">-ā</td>
-    <td style="border: 1px solid black;">-ās</td>
-    <td style="border: 1px solid black;">-ai</td>
-    <td style="border: 1px solid black;">-o</td>
-    <td style="border: 1px solid black;">-ā</td>
-    <td style="border: 1px solid black;">-ā</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">sieviešu</td>
-    <td style="border: 1px solid black;">daudzsk.</td>
-    <td style="border: 1px solid black;">-ās</td>
-    <td style="border: 1px solid black;">-o</td>
-    <td style="border: 1px solid black;">-ām</td>
-    <td style="border: 1px solid black;">-ās</td>
-    <td style="border: 1px solid black;">-ās</td>
-    <td style="border: 1px solid black;">-ās</td>
-  </tr>
-</table>
-</div><div class="col">
-<h5><i>Piemērs</i></h5>
-<p><b>Īpašības vārdu ar nenoteikto galotni locīšana</b></p>
-<table style="border-collapse: collapse;">
-  <tr>
-    <th style="border: 1px solid black;">Dzimte</th>
-    <th style="border: 1px solid black;">Vīr., viensk.</th>
-    <th style="border: 1px solid black;">Siev., viensk.</th>
-    <th style="border: 1px solid black;">Vīr., daudzsk.</th>
-    <th style="border: 1px solid black;">Siev., daudzsk.</th>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Nominatīvs
-    <td style="border: 1px solid black;">zil-s</td>
-    <td style="border: 1px solid black;">zil-a</td>
-    <td style="border: 1px solid black;">zil-i</td>
-    <td style="border: 1px solid black;">zil-as</td>
-    </tr>
+                      <h4 class = "text-center"><b>Partikulas</b></h4>
+                        <p>Partikulas ir palīgvārdi, kas rāda, kā runātājs vērtē īstenību. Partikulas var pastiprināt, pavājināt, ierobežot vai izcelt kāda vārda nozīmi, tā mainot visa teikuma saturu.</p>
+                        <p>Partikulas var būt izteiktas gan ar vienu vārdu, gan vairākiem vārdiem. Tāpēc pēc uzbūves šķir vienkāršas partikulas un partikulu kopas.</p>
+                      <ul>
+                        <li>Vienkāršās partikulas veido viens vārds. Tās ir:<i><u> ar, arī, diezin, gan, ik, ir, it, itin, jā, jau, jel, jo, kā, kaut, lai, ne, nekā, nē, nezin, nu, pat, taču, tad, tik, tikai, vien, vis, vienīgi.</u></i></li>
+                        <li>Partikulu kopas veido divi vai vairāki vārdi. Tās ir: <i><u>roši vien, gan jau, it kā, jā gan, jau gan, nu gan, gan jau nu.</u></i></li>
+                        <p>Pēc nozīmes šķiramas:</p>
+                        <p></p>
+                        <li>ierobežojuma partikulas: tikai, vien, vienīgi.</li>
+                        <p><i>Viņš spēja domāt vienīgi par savu meiteni;</i></p>
+                        <li>nenoteiktības partikulas: kaut, lai, vai.</li>
+                        <p><i>Kaut ātrāk pienāktu vasara!</i></p>
+                        <li>vispārinājuma partikula: ik.</li>
+                        <p><i>Šai kokā ik pavasari apmetas strazdu pāris;</i></p>
+                        <li>pastiprinājuma partikulas: ar, arī, diemžēl, gan, ir, jau, jel, jo, pat, tad, taču, tak, tik, tikai, vien, vienīgi, vis, nu gan, jau nu gan.</li>
+                        <p><i>Es tev piezvanīšu rīt pat.</i></p>
+                        <p><i>Kas tik nav pārdzīvots!</i></p>
+                        <li>pastiprinājuma vai pavājinājuma partikulas: it, itin, jo.</li>
+                        <p><i>Pamazām kļuva itin vēsi.</i></p>
+                        <p><i>Agrāk viņš šeit iegriezās jo bieži;</i></p>
+                        <li>salīdzinājuma partikulas: kā, nekā, it kā. (Reizēm tās tiek sauktas par salīdzinājuma saikļiem.)</li>
+                        <p><i>Braucot no Rīgas, Saulkrasti ir tuvāk nekā Salacgrīva.</i></p>
+                        <li>apgalvojuma partikulas: jā, jā gan.</li>
+                        <p><i>Vai tu atceries pagājušos Jāņus? – Jā gan;</i></p>
+                        <li>nolieguma partikulas: nē, ne, nebūt.</li>
+                        <p><i>Avīzi lasīji? – Nē.</i></p>
+                        <p><i>Viņš nebūt nejutās vainīgs.</i></p>
+                        <p></p>
+                        <p><b>! Partikula ne noliedz vārdu vai aizstāj izlaistu noliegtu darbības vārdu.!</b></p>
+                        <p><i>Es redzu, bet tu ne.</i></p>
+                        <p>Partikula <b>nē</b> noliedz teikumu.</p>
+                        <p><i>Vai tev ir auksti? – Nē.</i></p>
+                        <li>apšaubāmības partikulas: diezin, droši vien, nezin, varbūt.</li>
+                        <p><i>Bērni droši vien jau guļ.</i></p>
+                        <li>jautājuma partikula: vai.</li>
+                        <p><i>Vai tu rīt būsi šeit?</i></p>
+                        <li>rosinājuma partikulas: lai, nu.</li>
+                        <p><i>Sēdies nu pie galda!</i></p>
+                        <li>vēlējuma partikulas: kaut, kaut jel, lai.</li>
+                        <p><i>Lai vienmēr būtu saule!</i></p>
+                      </ul>
 
-  <tr>
-    <td style="border: 1px solid black;">Ģenitīvs</td>
-    <td style="border: 1px solid black;">zil-a</td>
-    <td style="border: 1px solid black;">zil-as</td>
-    <td style="border: 1px solid black;">zil-u</td>
-    <td style="border: 1px solid black;">zil-u</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Datīvs</td>
-    <td style="border: 1px solid black;">zil-am</td>
-    <td style="border: 1px solid black;">zil-ai</td>
-    <td style="border: 1px solid black;">zil-iem</td>
-    <td style="border: 1px solid black;">zil-ām</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Akuzatīvs</td>
-    <td style="border: 1px solid black;">zil-u</td>
-    <td style="border: 1px solid black;">zil-u</td>
-    <td style="border: 1px solid black;">zil-us</td>
-    <td style="border: 1px solid black;">zil-as</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Lokatīvs</td>
-    <td style="border: 1px solid black;">zil-ā</td>
-    <td style="border: 1px solid black;">zil-ā</td>
-    <td style="border: 1px solid black;">zil-os</td>
-    <td style="border: 1px solid black;">zil-ās</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Vokatīvs</td>
-    <td style="border: 1px solid black;">-</td>
-    <td style="border: 1px solid black;">-</td>
-    <td style="border: 1px solid black;">-</td>
-    <td style="border: 1px solid black;">-</td>
-  </tr>
-</table>
-</div>
-</div><div class="row">
-  <div class="col">
-<p><b>Īpašības vārdu ar noteikto galotni locīšana</b></p>
-<table style="border-collapse: collapse;">
-  <tr>
-    <th style="border: 1px solid black;">Dzimte</th>
-    <th style="border: 1px solid black;">Vīr., viensk.</th>
-    <th style="border: 1px solid black;">Siev., viensk.</th>
-    <th style="border: 1px solid black;">Vīr., daudzsk.</th>
-    <th style="border: 1px solid black;">Siev., daudzsk.</th>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Nominatīvs
-    <td style="border: 1px solid black;">zil-ais</td>
-    <td style="border: 1px solid black;">zil-ā</td>
-    <td style="border: 1px solid black;">zil-ie</td>
-    <td style="border: 1px solid black;">zil-ās</td>
-    </tr>
+                        <h4 class = "text-center"><b>Izsauksmes vārdi</b></h4>
+                         <h6>Izsauksmes vārdi ir nelokāmi vārdi, kas izsaka jūtas, gribu, ataino īstenības parādības, tie ir vārdi ir skaniski signāli, tiem nav nosaucējas jeb nominālās funkcijas.</h6>
+                          <p>Izsauksmes vārdi ir ak!, vai!, ai!, au!, urrā!, ūja!, oho!, ā!, brr!, blīkš!, plaukš!, žvīks!, hi, hi! un citi.</p>
+                          <p><b>!Izsauksmes vārdus no pārējās teikuma daļas atdala ar komatiem.!</b></p>
+                          <p>Latviešu valodā ir latviskas cilmes izsauksmes vārdi, piemēram: vai!, re!, lūk!, redz!, ak tu!, se, se!, si, si!, krā!, vau!, paldies!, labrīt!, labvakar!</p>
+                          <p>No citām valodām aizgūti tādi izsauksmes vārdi kā āmen!, hallo!, bravo!, hop!, marš!, urrā!, stop!, vot!, okei! Daļu no tiem uzskatām par barbarismiem, piemēram: vot!, okei!, olrait!</p>
+                          <p></p>
+                          <p><i>Piemērs teikumā:</i></p>
+                          <p><b>Ak</b>, cik skaisti!</p>
+                          <p><b>Kuš</b>, nekā nevar dzirdēt!</p>
+                          <p><b>Labdien!</b></p>
 
-  <tr>
-    <td style="border: 1px solid black;">Ģenitīvs</td>
-    <td style="border: 1px solid black;">zil-ā</td>
-    <td style="border: 1px solid black;">zil-ās</td>
-    <td style="border: 1px solid black;">zil-o</td>
-    <td style="border: 1px solid black;">zil-o</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Datīvs</td>
-    <td style="border: 1px solid black;">zil-ajam</td>
-    <td style="border: 1px solid black;">zil-ajai</td>
-    <td style="border: 1px solid black;">zil-ajiem</td>
-    <td style="border: 1px solid black;">zil-ajām</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Akuzatīvs</td>
-    <td style="border: 1px solid black;">zil-o</td>
-    <td style="border: 1px solid black;">zil-o</td>
-    <td style="border: 1px solid black;">zil-os</td>
-    <td style="border: 1px solid black;">zil-ās</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Lokatīvs</td>
-    <td style="border: 1px solid black;">zil-ajā</td>
-    <td style="border: 1px solid black;">zil-ajā</td>
-    <td style="border: 1px solid black;">zil-ajos</td>
-    <td style="border: 1px solid black;">zil-ajās</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Vokatīvs</td>
-    <td style="border: 1px solid black;">zil-ais</td>
-    <td style="border: 1px solid black;">zil-ā </td>
-    <td style="border: 1px solid black;">zil-ie</td>
-    <td style="border: 1px solid black;">zil-ās</td>
-  </tr>
-</table>
-</div><div class="col">
+      </div>
+    
 
-<p><b>Īpašības vārdu ar izskaņu -ējs locīšana ar noteikto galotni</b></p>
-<table style="border-collapse: collapse;">
-  <tr>
-    <th style="border: 1px solid black;">Dzimte</th>
-    <th style="border: 1px solid black;">Vīr., viensk.</th>
-    <th style="border: 1px solid black;">Siev., viensk.</th>
-    <th style="border: 1px solid black;">Vīr., daudzsk.</th>
-    <th style="border: 1px solid black;">Siev., daudzsk.</th>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Nominatīvs
-    <td style="border: 1px solid black;">vidēj-ais</td>
-    <td style="border: 1px solid black;">vidēj-ā</td>
-    <td style="border: 1px solid black;">vidēj-ie</td>
-    <td style="border: 1px solid black;">vidēj-ās</td>
-    </tr>
-
-  <tr>
-    <td style="border: 1px solid black;">Ģenitīvs</td>
-    <td style="border: 1px solid black;">vidēj-ā</td>
-    <td style="border: 1px solid black;">vidēj-ās</td>
-    <td style="border: 1px solid black;">vidēj-o</td>
-    <td style="border: 1px solid black;">vidēj-o</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Datīvs</td>
-    <td style="border: 1px solid black;">vidēj-am</td>
-    <td style="border: 1px solid black;">vidēj-ai</td>
-    <td style="border: 1px solid black;">vidēj-iem</td>
-    <td style="border: 1px solid black;">vidēj-ām</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Akuzatīvs</td>
-    <td style="border: 1px solid black;">vidēj-o</td>
-    <td style="border: 1px solid black;">vidēj-o</td>
-    <td style="border: 1px solid black;">vidēj-os</td>
-    <td style="border: 1px solid black;">vidēj-ās</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Lokatīvs</td>
-    <td style="border: 1px solid black;">vidēj-ā</td>
-    <td style="border: 1px solid black;">vidēj-ā</td>
-    <td style="border: 1px solid black;">vidēj-os</td>
-    <td style="border: 1px solid black;">vidēj-ās</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black;">Vokatīvs</td>
-    <td style="border: 1px solid black;">vidēj-ais</td>
-    <td style="border: 1px solid black;">vidēj-ā</td>
-    <td style="border: 1px solid black;">vidēj-ie</td>
-    <td style="border: 1px solid black;">vidēj-ās</td>
-  </tr>
-</table>
-</div>
-</div>
-<p></p>
-<h4 class = "text-center"><b>Skaitļa vārdi</b></h4>
-<p>Skaitļa vārdus pēc nozīmes iedala pamata un kārtas skaitļa vārdos. Pamata skaitļa vārdi var būt lokāmi vai nelokāmi. Lokāmos pamata skaitļa vārdus loka kā <b>īpašības vārdus</b> ar nenoteikto galotni, bet kārtas skaitļa vārdus loka kā <b>īpašības vārdus</b> ar noteikto galotni. Īpatnēji loka skaitļa vārdus <i><u>trīs, pusotra, pustreša, pusceturta.</u></i> Skaitļa vārdu savienojumos katru tā sastāvdaļu loka atsevišķi.</p>
-<p>Nelokāmi ir visi skaitļa vārdi, kuriem nav galotnes:</p>
-<ul>
-<p><i>11-19: vienpadsmit, divpadsmit, trīspadsmit, četrpadsmit, piecpadsmit, sešpadsmit, septiņpadsmit, astoņpadsmit, deviņpadsmit;</i></p>
-<li><b>saliktie skaitļa vārdi ar</b> desmit: divdesmit, trīsdesmit, četrdesmit, piecdesmit, sešdesmit, septiņdesmit, astoņdesmit, deviņdesmit;</li>
-<li><b>saliktie skaitļa vārdi ar</b> simt: simt, divsimt, trīssimt, četrsimt, piecsimt, sešsimt, septiņsimt, astoņsimt, deviņsimt;</li>
-<li><b>saliktie skaitļa vārdi ar</b> tūkstoš: tūkstoš, divtūkstoš, trīstūkstoš, četrtūkstoš, piectūkstoš, seštūkstoš, septiņtūkstoš, astoņtūkstoš, deviņtūkstoš.</li>
-</ul>
-<div class="row">
-<h4 class = "text-center"><b>Vietniekvārdi</b></h4>
-<p>Vietniekvārdu lielāko daļu loka kā pirmās (vīriešu dzimtes) vai ceturtās deklinācijas lietvārdus (sieviešu dzimtē). Īpatnēji loka es, tu, mēs, jūs, sevis, kas, tas, tā, šis, šī, pats, pati.</p>
-<h8><i>Piemēri:</i></h8>
-</div><div class="row">
-  <div class="col">
-<h6>Sieviešu dzimtē:</h6>
-<table style="border-collapse: collapse;">
-  <tr>
-    <th style="border: 1px solid black;">Nominatīvs</th>
-    <td style="border: 1px solid black;">viņ-a</td>
-    <td style="border: 1px solid black;">viņ-as</td>
- 
-  </tr>
-  <tr>
-    <th style="border: 1px solid black;">Ģenitīvs</th>
-    <td style="border: 1px solid black;">viņ-as</td>
-    <td style="border: 1px solid black;">viņ-u</td>
- 
-  </tr>
-   <tr>
-    <th style="border: 1px solid black;">Datīvs</th>
-    <td style="border: 1px solid black;">viņ-ai</td>
-    <td style="border: 1px solid black;">viņ-ām</td>
-  </tr>
-  <tr>
-    <th style="border: 1px solid black;">Akuzatīvs</th>
-    <td style="border: 1px solid black;">viņ-u</td>
-    <td style="border: 1px solid black;">viņ-as</td>
- 
-  </tr>
-  <tr>
-    <th style="border: 1px solid black;">Lokatīvs</th>
-    <td style="border: 1px solid black;">viņ-ā</td>
-    <td style="border: 1px solid black;">viņ-ās</td>
- 
-  </tr>
-</table>
-</div><div class="col">
-<h6>Vīriešu dzimtē:</h6>
-<table style="border-collapse: collapse;">
-  <tr>
-    <th style="border: 1px solid black;">Nominatīvs</th>
-    <td style="border: 1px solid black;">viņ-š</td>
-    <td style="border: 1px solid black;">viņ-i</td>
- 
-  </tr>
-  <tr>
-    <th style="border: 1px solid black;">Ģenitīvs</th>
-    <td style="border: 1px solid black;">viņ-a</td>
-    <td style="border: 1px solid black;">viņ-u</td>
- 
-  </tr>
-   <tr>
-    <th style="border: 1px solid black;">Datīvs</th>
-    <td style="border: 1px solid black;">viņ-am</td>
-    <td style="border: 1px solid black;">viņ-iem</td>
-  </tr>
-  <tr>
-    <th style="border: 1px solid black;">Akuzatīvs</th>
-    <td style="border: 1px solid black;">viņ-u</td>
-    <td style="border: 1px solid black;">viņ-us</td>
- 
-  </tr>
-  <tr>
-    <th style="border: 1px solid black;">Lokatīvs</th>
-    <td style="border: 1px solid black;">viņ-ā</td>
-    <td style="border: 1px solid black;">viņ-os</td>
- 
-  </tr>
-</table>
-</div>
-</div>
-<p></p>
-<h4 class = "text-center"><b>Darbības vārdi</b></h4>
-<p><i>Darbības vārdi ir patstāvīgi, lokāmi vārdi, kas nosauc darbību vai stāvokli.</i></p>
-<ul>
-<li>Darbības vārdus latviešu valodā iedala trijās konjugācijās. Pie <b>pirmās konjugācijas</b> pieder vienzilbes darbības vārdi un to atvasinājumi ar priedēkļiem. Pie <b>otrās konjugācijas</b> pieder ar piedēkļiem <i>-ā, -ē, -o, -ī, -alē, -aļā, -elē, -uļo</i> atvasinātie darbības vārdi, kam tagadnes un pagātnes celmā ir vienāds zilbju skaits. Pie <b>trešās konjugācijas</b> pieder ar piedēkļiem <i>-ā, -ē, -ī, -inā</i> atvasinātie darbības vārdi, kuriem pagātnes celmā ir par vienu zilbi vairāk nekā tagadnes celmā. Nevienā no konjugācijām neiederas <b>nekārtnie darbības vārdi</b> : <i>būt, iet, dot.</i></li>
-<li>Darbības vārdiem ir trīs vienkāršie laiki: <i>vienkāršā tagadne , vienkāršā pagātne un vienkāršā nākotne</i> , un trīs saliktie laiki : saliktā tagadne, saliktā pagātne, saliktā nākotne. Darbības vārdam ir piecas izteiksmes: īstenības izteiksme, pavēles izteiksme , vēlējuma izteiksme , atstāstījuma izteiksme un vajadzības izteiksme .</li>
-</ul>
-<h4 class = "text-center"><b>Apstākļa vārdi</b></h4>
-<p>Apstākļa vārdi ir patstāvīgi, nelokāmi vārdi, kas nosauc darbības, īpašības vai apstākļa pazīmes.</p>
-<ol>
-  <li> darbības pazīmes, piemēram, <b>veikli</b> runāja, <b>reiz</b> dzīvoja, <b>te</b> apstājās;</li>
-  <li> īpašības pazīmes, piemēram, <b>koši</b> balts, <b>ļoti</b> smaržīgs, <b>tumši</b> sarkans;</li>
-  <li>apstākļu pazīmes, piemēram, <b>ļotiveikli</b> kustēties, <b>pavisam</b> viegli dejot.</li>
-</ol> 
-<P>Apstākļa vārdi ir radušies arī no īpašības vārdiem, jo gandrīz no katra īpašības vārda darina apstākļa vārdu, īpašības vārda celmam pievienojot <i>-i, -u vai -ām</i>, piemēram:</P>
-<p><i>Kluss-   klus-i, klus-u, klus-ām.</i></p>
-<div class="row">
-<h4 class = "text-center"><b>Prievārdi</b></h4>
-<p>Palīgvārds, kas norāda attieksmes starp patstāvīgiem vārdiem un ko lieto kopā ar deklinējama vārda locījuma formu.</p>
-<p><i>Viņi gāja <b>gar</b> jūru.</i></p>
-<p><i>Mēs <b>ar</b> viņiem satiksimies Rīgā.</i></p>
-<p>Latviešu valodā ir šādi prievārdi:</p>
-<ul>
-  <li><i>ar ģenitīvu</i></li>
-  <p><i>aiz, apakš, bez, dēļ, iekš, iz, kopš, labad, no, pēc, pie, pirms, priekš, virs, zem un visi saliktie prievārdi ar –pus otrajā daļā: apakšpus, augšpus, ārpus, iekšpus, lejpus, otrpus, šaipus, viņpus, virspus;</i></p>
-</div><div class="row">
-<div class="col">
-  <li><i>ar datīvu</i></li>
-  <p><i>līdz;</i></p>
-</div><div class="col">
-  <li><i>ar akuzatīvu</i></li>
-  <p><i>ap, caur, gar, par,pār, pret, starp;</i></p>
-</div><div class="col">
-  <li><i>ar datīvu vai akuzatīvu</i></li>
-  <p><i>pa;</i></p>
-</div><div class="col">
-  <li><i>ar instrumentāli</i></li>
-  <p><i>ar;</i></p>
-</div><div class="col">
-  <li><i>ar ģenitīvu vai akuzatīvu</i></li>
-  <p><i>uz.</i></p>
-  </ul>
-  </div>
-  </div>
-<h4 class = "text-center"><b>Saikļi (konjugācijas)</b></h4>
-<p>Saikļi ir viena no gramatikas sastāvdaļām, kas tiek izmantoti, lai savienotu vārdus, frāzes vai dažādas teikuma daļas. Tie palīdz veidot loģiskas saites starp vārdiem un teikuma daļām, norādot attiecības starp tām. Saikļi var izpaust laiku, vietu, iemeslu, secību, salīdzinājumu, pievienot informāciju vai norādīt uz papildu detaļām.</p>
-<p></p>
-<p>Latviešu valodā ir dažādi veidi un veidi, kā saikļi:</p>
-<p><i>un, bet, vai, tāpēc ka, jo, lai, ja, kaut, kamēr un citi.</i></p>
-<h8>Teikumā piemēri:</h8>
-<p><i>Ieva <b>un</b> Ilze raksta.</i></p>
-<p><i>Ieva raksta, <b>bet</b> Ilze lasa.</i></p>
-<p><i>Ieva redz, <b>ka</b> Ilze raksta.</i></p>
-<p><i>Ieva raksta. <b>Un</b> Ilze lasa.</i></p>
-<p></p>
-<p>Pēc funkcijas teikumā saikļi iedalās sakārtojuma un pakārtojuma saikļos.</p>
-<ul>
-<li><b>Sakārtojuma saikļi</b> ir tie, kas saista vienlīdzīgus teikuma locekļus, vienlīdzīgas teikuma daļas, pašus teikumus, piemēram:</li>
-<p><i>Manam sunim garšo gan kauli, gan speciālā barība.</i></p>
-<li><b>Pakārtojuma saikļi</b> piesaista pakārtojumā palīgteikumu virsteikumam vai palīgteikumu palīgteikumam, piemēram:</li>
-<p><i>Reiz, rakstot par Kārli Mīlenbahu, skaidri zinādams, ka viņa "Latviešu valodas vārdnīcai" kopā ar papildinājumiem ir pavisam seši sējumi, tomēr minēju septiņus. Šī aplamība tika arī nodrukāta, jo redaktori droši vien paļāvās uz to, ka Ancītis jau nemelos.
-  (V. Ancītis.)</i></p>
-</ul>
-<h4 class = "text-center"><b>Partikulas</b></h4>
-<p>Partikulas ir palīgvārdi, kas rāda, kā runātājs vērtē īstenību. Partikulas var pastiprināt, pavājināt, ierobežot vai izcelt kāda vārda nozīmi, tā mainot visa teikuma saturu.</p>
-<p>Partikulas var būt izteiktas gan ar vienu vārdu, gan vairākiem vārdiem. Tāpēc pēc uzbūves šķir vienkāršas partikulas un partikulu kopas.</p>
-<ul>
-<li>Vienkāršās partikulas veido viens vārds. Tās ir:<i><u> ar, arī, diezin, gan, ik, ir, it, itin, jā, jau, jel, jo, kā, kaut, lai, ne, nekā, nē, nezin, nu, pat, taču, tad, tik, tikai, vien, vis, vienīgi.</u></i></li>
-<li>Partikulu kopas veido divi vai vairāki vārdi. Tās ir: <i><u>roši vien, gan jau, it kā, jā gan, jau gan, nu gan, gan jau nu.</u></i></li>
-<p>Pēc nozīmes šķiramas:</p>
-<p></p>
-<li>ierobežojuma partikulas: tikai, vien, vienīgi.</li>
-<p><i>Viņš spēja domāt vienīgi par savu meiteni;</i></p>
-<li>nenoteiktības partikulas: kaut, lai, vai.</li>
-<p><i>Kaut ātrāk pienāktu vasara!</i></p>
-<li>vispārinājuma partikula: ik.</li>
-<p><i>Šai kokā ik pavasari apmetas strazdu pāris;</i></p>
-<li>pastiprinājuma partikulas: ar, arī, diemžēl, gan, ir, jau, jel, jo, pat, tad, taču, tak, tik, tikai, vien, vienīgi, vis, nu gan, jau nu gan.</li>
-<p><i>Es tev piezvanīšu rīt pat.</i></p>
-<p><i>Kas tik nav pārdzīvots!</i></p>
-<li>pastiprinājuma vai pavājinājuma partikulas: it, itin, jo.</li>
-<p><i>Pamazām kļuva itin vēsi.</i></p>
-<p><i>Agrāk viņš šeit iegriezās jo bieži;</i></p>
-<li>salīdzinājuma partikulas: kā, nekā, it kā. (Reizēm tās tiek sauktas par salīdzinājuma saikļiem.)</li>
-<p><i>Braucot no Rīgas, Saulkrasti ir tuvāk nekā Salacgrīva.</i></p>
-<li>apgalvojuma partikulas: jā, jā gan.</li>
-<p><i>Vai tu atceries pagājušos Jāņus? – Jā gan;</i></p>
-<li>nolieguma partikulas: nē, ne, nebūt.</li>
-<p><i>Avīzi lasīji? – Nē.</i></p>
-<p><i>Viņš nebūt nejutās vainīgs.</i></p>
-<p></p>
-<p><b>! Partikula ne noliedz vārdu vai aizstāj izlaistu noliegtu darbības vārdu.!</b></p>
-<p><i>Es redzu, bet tu ne.</i></p>
-<p>Partikula <b>nē</b> noliedz teikumu.</p>
-<p><i>Vai tev ir auksti? – Nē.</i></p>
-<li>apšaubāmības partikulas: diezin, droši vien, nezin, varbūt.</li>
-<p><i>Bērni droši vien jau guļ.</i></p>
-<li>jautājuma partikula: vai.</li>
-<p><i>Vai tu rīt būsi šeit?</i></p>
-<li>rosinājuma partikulas: lai, nu.</li>
-<p><i>Sēdies nu pie galda!</i></p>
-<li>vēlējuma partikulas: kaut, kaut jel, lai.</li>
-<p><i>Lai vienmēr būtu saule!</i></p>
-</ul>
-<h4 class = "text-center"><b>Izsauksmes vārdi</b></h4>
-<h6>Izsauksmes vārdi ir nelokāmi vārdi, kas izsaka jūtas, gribu, ataino īstenības parādības, tie ir vārdi ir skaniski signāli, tiem nav nosaucējas jeb nominālās funkcijas.</h6>
-<p>Izsauksmes vārdi ir ak!, vai!, ai!, au!, urrā!, ūja!, oho!, ā!, brr!, blīkš!, plaukš!, žvīks!, hi, hi! un citi.</p>
-<p><b>!Izsauksmes vārdus no pārējās teikuma daļas atdala ar komatiem.!</b></p>
-<p>Latviešu valodā ir latviskas cilmes izsauksmes vārdi, piemēram: vai!, re!, lūk!, redz!, ak tu!, se, se!, si, si!, krā!, vau!, paldies!, labrīt!, labvakar!</p>
-<p>No citām valodām aizgūti tādi izsauksmes vārdi kā āmen!, hallo!, bravo!, hop!, marš!, urrā!, stop!, vot!, okei! Daļu no tiem uzskatām par barbarismiem, piemēram: vot!, okei!, olrait!</p>
-<p></p>
-<p><i>Piemērs teikumā:</i></p>
-<p><b>Ak</b>, cik skaisti!</p>
-<p><b>Kuš</b>, nekā nevar dzirdēt!</p>
-<p><b>Labdien!</b></p>
-
-</div>
-</div>
-          <div id="sintakse" class="row d-none m-5">
-            <div class="col">
+      <div id="sintakse" class="row d-none m-5">
+        <div class="col">
               <table style="border-collapse: collapse;">
                 <tr>
-             <h4><b>Sintakses</b> valodniecībā lieto divās nozīmēs.</h4>
-             <th style="border: 1px solid black;"><p style="color:green;">Pirmkārt, par <b>sintaksi</b> sauc valodniecības (arī gramatikas) nozari, kas pētī komunikatīvu (jeb sazināšanās) vienību veidošanas likumsakarības, šo vienību uzbūvi un funkcijas.</p>
-             <p style="color:green;">Otrkārt, par <b>sintaksi</b> sauc valodas parādību kopumu, kas saistīts ar komunikatīvu vienību veidošanu un lietošanu.</p></th>
-               </tr>
-            </table>
+                  <h4><b>Sintakses</b> valodniecībā lieto divās nozīmēs.</h4>
+                  <th style="border: 1px solid black;"><p style="color:green;">Pirmkārt, par <b>sintaksi</b> sauc valodniecības (arī gramatikas) nozari, kas pētī komunikatīvu (jeb sazināšanās) vienību veidošanas likumsakarības, šo vienību uzbūvi un funkcijas.</p>
+                  <p style="color:green;">Otrkārt, par <b>sintaksi</b> sauc valodas parādību kopumu, kas saistīts ar komunikatīvu vienību veidošanu un lietošanu.</p></th>
+                </tr>
+              </table>
             
             <h5>Mūsdienu sintaksē var izdalīt divus pamatvirzienus:</h5>
             <h5 class = "text-center" style="color:green;"><b>tradicionālo sintaksi</b></h5>
             <h5 class = "text-center" style="color:green;"><b>strukturālo sintaksi</b></h5>
-           <p><b style="color:green;">Tradicionālā sintakse</b> - tai raksturīgs vairāku, bet teorētiski ne vienmēr precīzi nošķirtu viedokļu izmantojums.</p>
-           <p><b style="color:green;">Strukturālā sintakse</b> cenšas rast noteiktu metodi, šķirt pētīšanas viedokļus un iegūt teorētiski pamatotus un pārbaudāmus rezultātus.</p>
+              <p><b style="color:green;">Tradicionālā sintakse</b> - tai raksturīgs vairāku, bet teorētiski ne vienmēr precīzi nošķirtu viedokļu izmantojums.</p>
+              <p><b style="color:green;">Strukturālā sintakse</b> cenšas rast noteiktu metodi, šķirt pētīšanas viedokļus un iegūt teorētiski pamatotus un pārbaudāmus rezultātus.</p>
             <h6>Svarīgākā vienība ir <u>teikums</u></h6>
-            <p class="text-align center">Vienkāršs teikums (1 gramatiskais centrs)</p>
-            <p class="text-align center">Vienkopu teikums(1 teikuma loceklis)  ............Divkopu teikums(2 teikuma locekļi (teikuma priekšmets, izteicējs))</p>
+              <p class="text-align center">Vienkāršs teikums (1 gramatiskais centrs)</p>
+              <p class="text-align center">Vienkopu teikums(1 teikuma loceklis)  ............Divkopu teikums(2 teikuma locekļi (teikuma priekšmets, izteicējs))</p>
            <h6><u>Izsacījumi</u>- nav gramatiskais centrs (Piem. Paldies; Jā; Manis <u>pēc</u>)</h6>
+
            <h5 class="text-align center"><b>Teikuma iedalījums</b></h5>
-           <p>Pēc izteikuma mērķa:</p>                              
-            <ul>                                                    
-              <li>Stāstījuma</li>                                    
-              <li>Rosinājuma (izsaukuma)</li>                        
-              <li>Vēlējuma (izsaukuma)</li>                          
-              <li>Izsaukuma (emocijas)</li>                          
-              <li>Jautājuma</li>                                     
+            <p>Pēc izteikuma mērķa:</p>                              
+              <ul>                                                    
+                <li>Stāstījuma</li>                                    
+                <li>Rosinājuma (izsaukuma)</li>                        
+                <li>Vēlējuma (izsaukuma)</li>                          
+                <li>Izsaukuma (emocijas)</li>                          
+                <li>Jautājuma</li>                                     
 
-            </ul>      
+              </ul>      
             <p>Pēc uzbūves:</p>
-            <ul>
-              <li>SST</li>
-              <li>SPT</li>
-              <li>JST (2 neatkarīgas, 1 atkarīga)</li>
-              <li>VPT</li>
-              <li>VNT</li>
-          </ul>
-
+              <ul>
+                <li>SST</li>
+                <li>SPT</li>
+                <li>JST (2 neatkarīgas, 1 atkarīga)</li>
+                <li>VPT</li>
+                <li>VNT</li>
+              </ul>
           <p>Teikumā noteikts novietojums ir apzīmētājam, pielikumam, divatieksmju palīgloceklim un savrupinātajiem teikuma locekļiem.</p>
+
           <h6><b>Savrupinājumi</b>: <i style="color:green;">apzīmētājs</i>, <i style="color:rgb(33, 102, 252);">pielikums</i>, <i style="color:rgb(252, 33, 153);">apstāklis</i></h6>
-          <p><b style="color:green;">apzīmētājs</b> - ja apzīmētājs vai apzīmējuma grupa atrodas teikuma beigās, tad liek domuzīmi "-"</p>
-          <p><b style="color:rgb(33, 102, 252);">pielikums</b> <ul> <li>profesija</li><li>radniecība</li><li>piederība grupai u.c.</li></ul></p>
-          <p><b style="color:rgb(252, 33, 153);">apstāklis</b>- palīgloceklis, kas norāda darbības vietu, laiku, veidu, nolūku, cēloni vai pazīmes mēru. Savrupina viena nosaukuma apstākļus, kas precizē iepriekšējo apstākli.</p>
+            <p><b style="color:green;">apzīmētājs</b> - ja apzīmētājs vai apzīmējuma grupa atrodas teikuma beigās, tad liek domuzīmi "-".</p>
+            <p><b style="color:rgb(33, 102, 252);">pielikums</b> <ul> <li>profesija</li><li>radniecība</li><li>piederība grupai u.c.</li></ul></p>
+            <p><b style="color:rgb(252, 33, 153);">apstāklis</b>- palīgloceklis, kas norāda darbības vietu, laiku, veidu, nolūku, cēloni vai pazīmes mēru. Savrupina viena nosaukuma apstākļus, kas precizē iepriekšējo apstākli.</p>
         
           <p><b>Divdabja teiciens</b> - savrupināta vārda grupa, kuras pamatā ir divdabis. <i style="color:green;">(divdabis + paskaidrojošs teikuma palīgloceklis)</i></p>
-          <p style="color:green;"><b>Divdabji kas veido divdabja teicienu:</b></p>
-          <ul style="color:green;">
-           <li>-is; -ies; -usi; -usies</li>
-           <li>-ts; -ta</li>
-           <li>-dams; -dama; -damies; -damās</li>
-           <li>-ot; -oties</li>
-          </ul>
-          <p><b>!</b> Divdabja teicienā ar komatu vienmēr jāatdala teikuma gramatiskais centrs, sakārtojuma un/vai pakārtojuma vārdi <b>!</b></p>
-          <p>Pirms viel. teik. loc. saikļiem liek komatu - nevis, bet, tomēr, lai gan u.c.</p>
-          <p><b>Iespraudumi</b> - vārdi vai vārdu savienojumi kam nav teik. loc. funkciju un ir sintaktiski neatkarīgas vienības.</p>
-          <p>Tie izsaka runātāja attieksmi:</p>
-          <ul>
-            <li>pirmkārt; iespējams; manuprāt; par laimi; tiešām;</li>
-          </ul>
-          <p><b>!</b>No pārējiem teik. loc. atdala ar komatiem, domuzīmēm vai iekavām <b>!</b></p>
-        </div>
-          </div>
+            <p style="color:green;"><b>Divdabji kas veido divdabja teicienu:</b></p>
+              <ul style="color:green;">
+              <li>-is; -ies; -usi; -usies</li>
+              <li>-ts; -ta</li>
+              <li>-dams; -dama; -damies; -damās</li>
+              <li>-ot; -oties</li>
+              </ul>
+            <p><b>!</b> Divdabja teicienā ar komatu vienmēr jāatdala teikuma gramatiskais centrs, sakārtojuma un/vai pakārtojuma vārdi <b>!</b></p>
+            <p>Pirms vienl. teik. loc. saikļiem liek komatu - nevis, bet, tomēr, lai gan u.c.</p>
 
-           <div id="leksikologija" class="row d-none m-5">
-            <div class="col"> 
+          <p><b>Iespraudumi</b> - vārdi vai vārdu savienojumi kam nav teik. loc. funkciju un ir sintaktiski neatkarīgas vienības.</p>
+            <p>Tie izsaka runātāja attieksmi:</p>
+              <ul>
+                <li>pirmkārt; iespējams; manuprāt; par laimi; tiešām;</li>
+              </ul>
+            <p><b>!</b>No pārējiem teik. loc. atdala ar komatiem, domuzīmēm vai iekavām <b>!</b></p>
+        </div>
+      </div>
+
+      <div id="leksikologija" class="row d-none m-5">
+        <div class="col"> 
             <div class="row">
               <h4><b>Leksikoloģija</b></h4>
              <h6><i>Leksikoloģija –  pētī vārdu krājuma jeb leksikas sastāvu, tā pārmaiņas, aplūko leksikas dažādās grupas (sinonīmus, antonīmus u. c.) un dažādos slāņus (poētismus, barbarismus, vulgārismus u. c.).</i></h6>
@@ -1006,6 +1035,7 @@
                 <li>Okazionālimi - individuāli darinājumi, kas veidoti pēc valodā esošiem paraugiem (vai tos pārkāpjot) un kas cieši saistīti ar noteiktu kontekstu.</li>
               <p>Okazionālismus bieži darina literāti, <i>piemēram,</i> jaundarinājumus var lasīt Ojāra Vācieša (esamība), Imanta Ziedoņa (pasaulsjušana), Zigmunda Skujiņa (mākslastrīce), un citu rakstnieku darbos.</p>
               <p><i>Valsts prezidenta Egila Levita darinātie jaunvārdi: turpinātība, atjaunotne, sākotne un likteņkopība, vienvērtīgs, valstsgriba.</i></p>
+              </ul>
              </div>
            </div>
           
@@ -1014,4 +1044,4 @@
 
         </div>
     </body>
-    </html>
+</html>
