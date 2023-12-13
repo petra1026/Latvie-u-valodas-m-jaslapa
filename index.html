@@ -55,6 +55,14 @@
         document.getElementById("leksikologija").classList.remove("d-none")
       }
     </script>
+    <script>
+      function paraditSakumu(){
+        document.getElementById("sakums").classList.remove("d-none")
+        document.getElementById("morfologija").classList.add("d-none")
+        document.getElementById("sintakse").classList.add("d-none")
+        document.getElementById("leksikologija").classList.add("d-none")
+      }
+    </script>
 
 </head>
 
@@ -95,6 +103,9 @@
       </div>
       <div class="col">
         <button type= "button" class = "btn  btn-success btn-lg " onclick="paraditLeksikologiju()">Leksikoloģija</button>
+      </div>
+      <div class="col">
+        <button type= "button" class = "btn  btn-success btn-lg " onclick="paraditSakumu()">Sākums</button>
       </div>
     </div>
 
